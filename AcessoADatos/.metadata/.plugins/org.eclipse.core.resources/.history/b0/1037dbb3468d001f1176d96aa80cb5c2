@@ -1,0 +1,60 @@
+package Ej1;
+
+import java.io.*;
+
+public class Main {
+
+	private static String[][] leerVentas(String nombreFichero, String[][] datos) {
+		String linea;
+		try(BufferedReader bf = new BufferedReader(new FileReader(nombreFichero))){
+			int numeroProductos = datos.length;
+			
+			//Asigno linea con el bf.readLine y cuando sea null finaliza el while
+			while((linea = bf.readLine())!=null) {
+				String[] partesLinea = linea.split(",");
+				//partesLinea[0] Nombre del producto
+				//partesLinea[1] Cantidad de la venta en forma de String
+				
+				int indice = 0;
+				boolean encontrado = false;
+				
+				while(indice<numeroProductos && !encontrado) {
+					if(datos[indice][0].equals(partesLinea[0])) 
+						encontrado = true;
+					else
+						indice++;
+				}
+				if(encontrado) {
+					//ya existe el producto porque indice apunta a su posicion
+					int cantidad = Integer.parseInt(datos[indice][1]+ Integer.parseInt(partesLinea[1]));
+					datos[indice][1] = String.valueOf(cantidad);
+				}else {
+					// Añadir el elemento
+					//En dinamico add
+					datos[numeroProductos][0] =partesLinea[0];
+					datos[numeroProductos][1] =partesLinea[1];
+				}
+			}
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+		return datos;
+	}
+	
+	public static void visualizarDatos(String[][] datos) {
+		for(int i = 0; i<datos.length;i++) {
+			for(int j = 0; j<i;j++ ) {
+				System.out.println(datos[i][j]);
+			}
+			
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[][] datos = new String[100][2]; // Maximo 100 productos
+		String nombreFichero="ventaProductos.txt";
+		leerVentas(nombreFichero, datos);
+		visualizarDatos(datos);
+	}
+
+}

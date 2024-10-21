@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+		<item value="gitlab.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://gitlab.com/fp.hjimenezsoler/acceso-a-datos.git"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="CFGS &lt;CFGS@LAB37_PC&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="CFGS &lt;CFGS@LAB37_PC&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\CFGS.LAB37_PC\git\acceso-a-datos\.git">
+			<item value="false"/>
+			<item value="HugoJ05 &lt;fp.hjimenezsoler@salesianosdosa.com&gt;"/>
+			<item value="&#x0D;&#x0A;aaa"/>
+			<item value="HugoJ05 &lt;fp.hjimenezsoler@salesianosdosa.com&gt;"/>
+			<item value="d8747da484f5993ba1c5b72087ea9f13ecac1b2b"/>
+			<item value="0"/>
+			<item value="true"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="301"/>
+		<item key="DIALOG_Y_ORIGIN" value="223"/>
+		<item key="DIALOG_WIDTH" value="666"/>
+		<item key="DIALOG_HEIGHT" value="458"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="814"/>
+		<item key="DIALOG_Y_ORIGIN" value="401"/>
+	</section>
+	<section name="GitImportWizard">
+		<item key="GitProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<section name="GitImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="706"/>
+			<item key="DIALOG_Y_ORIGIN" value="191"/>
+			<item key="DIALOG_WIDTH" value="662"/>
+			<item key="DIALOG_HEIGHT" value="550"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+</section>

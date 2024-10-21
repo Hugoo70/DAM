@@ -1,0 +1,76 @@
+package Ej2;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import Ej1.Persona;
+
+public class main {
+
+	static Scanner teclado = new Scanner(System.in);
+	static List<Libro> lib = new ArrayList<Libro>();
+
+		public static void guardarLibros(List<Libro> p, String ruta) {
+			try {
+				ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(new File(ruta)));
+				oos.writeObject(p);
+				oos.close();
+				System.out.println("Las personas han sido guardadas");
+			} catch (IOException e) {
+				e.getStackTrace();
+			}
+		}
+
+		public static List<Libro> LecturaLibros(String ruta) {
+
+			try {
+				ObjectInputStream ois = new ObjectInputStream(new FileInputStream(new File(ruta)));
+				lib = (List<Libro>) ois.readObject();
+				ois.close();
+			} catch (IOException | ClassNotFoundException e) {
+				e.getMessage();
+				e.getStackTrace();
+
+			}
+
+			return lib;
+
+		}
+
+		public static void main(String[] args) {
+	// TODO Auto-generated method stub
+			String ruta = "FicheroEj1.txt";
+			String titulo;
+			String autor;
+			double precio;
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Introduce los datos de la persona");
+
+			int opcion = 1;
+			while (opcion != 0) {
+
+				System.out.println("Introduce un titulo...");
+				titulo = teclado.nextLine();
+				System.out.println("Introduce un autor...");
+				autor = teclado.nextLine();
+				System.out.println("Introduce el precio...");
+				precio = teclado.nextDouble();
+				lib.add(new Libro(titulo, autor, precio));
+
+				System.out.println("Quieres conrinuar? Pulse 0 en el caso que no y cualquier num en caso de seguir");
+				opcion = teclado.nextInt();
+				teclado.nextLine();
+			}
+	//haremos la llamada para escribir el array en el fich
+			guardarLibros(lib, ruta);
+			List<Libro> Librosleidos = LecturaLibros(ruta);
+			for (Libro p : Librosleidos) {
+				System.out.println(p);
+			}
+			sc.close();
+
+		
+		}
+}

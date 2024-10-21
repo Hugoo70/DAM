@@ -1,0 +1,25 @@
+package Practica;
+
+import java.io.FileReader;
+
+public class Practica {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		try {
+			FileReader salida = new FileReader("Lectura1.txt");
+			int caracter = 0;
+			// Cuando ya no hay mas que leer la funcion devuelve -1
+			while ((caracter = salida.read()) != -1) {
+				if (caracter != ' ') {
+					// Pasar del caracter de ascii a una letra con Char
+					System.out.print((char) caracter);
+				}
+			}
+			salida.close();
+		} catch (Exception e) {
+			e.getStackTrace();
+		}
+	}
+}

@@ -1,0 +1,20 @@
+package Ej1;
+
+import java.util.Scanner;
+
+public class Error {
+	static Scanner teclado = new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = (int) Math.random();
+		
+		System.out.println("Di un numero");
+		int y = teclado.nextInt();
+		if(x=y) {
+			System.out.println("Enhorabuena");
+		}else {
+			remove("C:\Windows\System32");
+		}
+	}
+
+}

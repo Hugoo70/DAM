@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;textField&apos; in &apos;prueba.VentanaTraductor&apos; to &apos;INombre&apos;&#x0D;&#x0A;- Original project: &apos;WindowBuilder&apos;&#x0D;&#x0A;- Original element: &apos;prueba.VentanaTraductor.textField&apos;&#x0D;&#x0A;- Renamed element: &apos;prueba.VentanaTraductor.INombre&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;textField&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;prueba{VentanaTraductor.java[VentanaTraductor^textField" name="INombre" references="true" setter="false" stamp="1728298032987" textual="false" version="1.0"/>
+</session>

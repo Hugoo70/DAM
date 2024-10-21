@@ -1,0 +1,26 @@
+package Practica;
+
+import java.io.FileReader;
+
+public class Practica {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		char[] texto = new char[100];
+		try {
+			FileReader salida = new FileReader("Lectura1.txt");
+			int caracter = 0;
+			while((caracter = salida.read()) != -1) {
+				if(caracter != ' ') {
+					System.out.print((char) caracter);
+				}
+			}
+			System.out.println(texto);
+			salida.close();
+		} catch (Exception e) {
+			e.getStackTrace();
+		}
+	}
+	}
+

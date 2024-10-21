@@ -1,0 +1,32 @@
+package Practica;
+
+import java.io.*;
+
+public class Practica2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char[] texto = new char[100];
+		int numVoc=0;
+		int numCon=0;
+		
+		try {
+			FileReader file = new FileReader("Lectura1.txt");
+			file.read(texto);
+			for(int i = 0; i<texto.length;i++) {
+				if(i=='a'||i=='e'||i=='i'||i=='o'||i=='u'||i=='A'||i=='E'||i=='I'||i=='O'||i=='U') {
+					numVoc++;
+				}else {
+					numCon++;
+				}
+			}
+			System.out.println(numVoc);
+			System.out.println(numVoc);
+
+
+		}catch(Exception e) {
+			e.getStackTrace();
+		}
+	}
+
+}

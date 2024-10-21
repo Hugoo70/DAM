@@ -1,0 +1,5 @@
+ProductoA,200
+ProductoB,150
+ProductoC,300
+ProductoD,250
+ProductoE,100

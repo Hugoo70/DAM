@@ -1,0 +1,34 @@
+package LecturaEscritura;
+
+import java.io.*;
+
+public class Main {
+
+	public static void lectura(File f) {
+		char[] texto = new char[100];
+		try{
+		FileReader salida = new FileReader(f);
+		System.out.println("La codificación es: " + salida.getEncoding());
+		salida.read(texto,46,2);
+		System.out.println("La salida es: ");
+		System.out.println(texto);
+		salida.close();
+		}catch(Exception e) {
+			e.getStackTrace();
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String ruta = ".\\datos\\Fichero.txt";
+		File fichero = new File(ruta);
+		if(fichero.exists()) {
+			System.out.println("lEyEnDo...");
+			//Llamamos a la funcion de lectura
+			lectura(fichero);
+
+		}else {
+			System.out.println("Un ErRoR, No ExIsTe El FiChErO" + fichero.getAbsolutePath());
+		}
+	}
+
+}

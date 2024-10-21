@@ -1,0 +1,23 @@
+package Practica;
+
+import java.io.FileReader;
+
+public class Practica {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		char[] texto = new char[100];
+		try {
+			FileReader salida = new FileReader("Lectura1.txt");
+			System.out.println("La codificación es: " + salida.getEncoding());
+			salida.read(texto);
+			System.out.println("La salida es: ");
+			System.out.println(texto);
+			salida.close();
+		} catch (Exception e) {
+			e.getStackTrace();
+		}
+	}
+	}
+

@@ -1,0 +1,1978 @@
+!SESSION 2024-09-23 08:57:37.562 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-23 08:57:41.261
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-23 08:57:42.933
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-23 08:57:50.908
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-09-23 08:58:17.757 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-23 08:58:20.604
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-23 08:58:22.296
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-23 08:58:29.529
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-09-23 12:08:46.420 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-23 12:08:49.318
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-23 12:08:51.071
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-23 12:09:00.569
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-09-25 09:56:52.287 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-25 09:56:57.733
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-25 09:56:59.963
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-25 09:57:11.707
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-09-25 12:59:13.073 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-25 12:59:16.915
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-25 12:59:20.128
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-25 12:59:30.103
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-09-26 09:54:06.715 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-26 09:54:10.315
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-26 09:54:11.922
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-26 09:54:21.116
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-09-27 08:29:12.353 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-27 08:29:17.607
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-27 08:29:19.978
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-27 08:29:32.788
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-09-27 13:03:08.081 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-27 13:03:13.484
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-27 13:03:15.538
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-27 13:03:24.752
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-09-27 13:03:57.325
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.tm.terminal.view.ui.local.showin.detectors.DetectWSL$WslDetectJob RUNNING
+	 at java.base/java.io.FileInputStream.readBytes(Native Method)
+	 at java.base/java.io.FileInputStream.read(FileInputStream.java:287)
+	 at java.base/java.io.InputStream.readNBytes(InputStream.java:412)
+	 at java.base/java.io.FileInputStream.readNBytes(FileInputStream.java:348)
+	 at java.base/java.io.InputStream.readAllBytes(InputStream.java:349)
+	 at java.base/java.io.FileInputStream.readAllBytes(FileInputStream.java:300)
+	 at org.eclipse.tm.terminal.view.ui.local.showin.detectors.DetectWSL$WslDetectJob.run(DetectWSL.java:118)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-09-30 08:44:43.071 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-30 08:44:46.822
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-30 08:44:49.526
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-30 08:45:02.705
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-09-30 11:58:10.993 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-30 11:58:15.009
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-30 11:58:17.005
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-30 11:58:25.727
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.debug 4 125 2024-09-30 12:49:10.568
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+org.eclipse.jdi.TimeoutException: Timeout occurred while waiting for packet 83.
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:195)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getReply(PacketReceiveManager.java:206)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:207)
+	at org.eclipse.jdi.internal.MirrorImpl.requestVM(MirrorImpl.java:242)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesBySignature(VirtualMachineImpl.java:657)
+	at org.eclipse.jdi.internal.VirtualMachineImpl.classesByName(VirtualMachineImpl.java:687)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.jdiClassesByName(JDIDebugTarget.java:1888)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.filterNotLoadedTypes(JDIDebugTarget.java:3236)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.doHotCodeReplace(JavaHotCodeReplaceManager.java:443)
+	at org.eclipse.jdt.internal.debug.core.hcr.JavaHotCodeReplaceManager.lambda$0(JavaHotCodeReplaceManager.java:317)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1248)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:496)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-09-30 13:41:28.257 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-30 13:41:33.499
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-30 13:41:35.538
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-30 13:41:45.803
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-01 09:02:10.575 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-01 09:02:15.700
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-01 09:02:17.614
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-01 09:02:26.752
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-01 10:16:01.674 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-01 10:16:04.606
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-01 10:16:06.270
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-01 10:16:14.485
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-04 13:01:50.866 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-04 13:01:53.776
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-04 13:01:55.524
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-04 13:02:04.505
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-04 13:09:53.757 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-04 13:09:56.601
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-04 13:09:58.324
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-04 13:10:06.752
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-04 13:11:10.817 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-04 13:11:13.665
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-04 13:11:15.367
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-04 13:11:23.786
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-07 09:00:08.727 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-07 09:00:13.101
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-07 09:00:15.004
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-07 09:00:24.986
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-10-07 09:05:58.124
+!MESSAGE An internal error occurred during: "Install download8".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.osgi.signedcontent.SignedContentFactory.getSignedContent(java.io.File)" because "verifierFactory" is null
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.verifyContent(SignatureVerifier.java:84)
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.verify(SignatureVerifier.java:66)
+	at org.eclipse.equinox.internal.p2.artifact.repository.SignatureVerifier.close(SignatureVerifier.java:115)
+	at org.eclipse.equinox.internal.provisional.p2.artifact.repository.processing.ProcessingStep.close(ProcessingStep.java:97)
+	at org.eclipse.equinox.internal.p2.artifact.processors.checksum.MessageDigestProcessingStep.close(MessageDigestProcessingStep.java:58)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.reportStatus(SimpleArtifactRepository.java:1317)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:647)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:846)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:357)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:327)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:248)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:164)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:828)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2024-10-07 09:05:58.128
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2024-10-07 09:05:58.128
+!MESSAGE session context was:(profile=C__Users_CFGS.LAB37_PC_eclipse_java-2024-09_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2024-10-07 09:05:58.128
+!MESSAGE Attempt to access stopped agent: org.eclipse.equinox.internal.p2.core.ProvisioningAgent@768bb7c5
+!STACK 0
+java.lang.IllegalStateException: Attempt to access stopped agent: org.eclipse.equinox.internal.p2.core.ProvisioningAgent@768bb7c5
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.checkRunning(ProvisioningAgent.java:87)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.getService(ProvisioningAgent.java:51)
+	at org.eclipse.equinox.p2.core.IProvisioningAgent.getService(IProvisioningAgent.java:87)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.publishDownloadEvent(DownloadManager.java:147)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.fetch(DownloadManager.java:138)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:108)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:124)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:65)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:95)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:49)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:175)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-10-07 09:06:00.490 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-07 09:06:03.730
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-07 09:06:05.673
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-07 09:06:15.054
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-07 09:12:11.967 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/CFGS.LAB37_PC/Interfaces/
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-07 09:12:17.164
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-07 09:12:20.334
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-07 09:12:31.122
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wb.core 4 4 2024-10-07 09:16:46.621
+!MESSAGE Designer [1.17.0.202407271802.202410070916]: Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+!STACK 1
+Java Model Exception: Core Exception [code 0] Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:52)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:739)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6144)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$WorkbenchRunnableAdapter.run(DesignerNewElementWizard.java:213)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+	at org.eclipse.jdt.ui.wizards.NewContainerWizardPage.getInitialJavaElement(NewContainerWizardPage.java:234)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethod(ReflectionUtils.java:896)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethodEx(ReflectionUtils.java:875)
+	at org.eclipse.wb.internal.core.wizards.WizardUtils.getJavaElement(WizardUtils.java:47)
+	at org.eclipse.wb.internal.core.wizards.WizardUtils.getJavaProject(WizardUtils.java:33)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.getJavaProject(AbstractDesignWizard.java:169)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.finishPage(AbstractDesignWizard.java:87)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$2.run(DesignerNewElementWizard.java:116)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	... 6 more
+Caused by: org.eclipse.core.runtime.CoreException: Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$2.run(DesignerNewElementWizard.java:118)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:739)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6144)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$WorkbenchRunnableAdapter.run(DesignerNewElementWizard.java:213)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+	at org.eclipse.jdt.ui.wizards.NewContainerWizardPage.getInitialJavaElement(NewContainerWizardPage.java:234)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethod(ReflectionUtils.java:896)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethodEx(ReflectionUtils.java:875)
+	at org.eclipse.wb.internal.core.wizards.WizardUtils.getJavaElement(WizardUtils.java:47)
+	at org.eclipse.wb.internal.core.wizards.WizardUtils.getJavaProject(WizardUtils.java:33)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.getJavaProject(AbstractDesignWizard.java:169)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.finishPage(AbstractDesignWizard.java:87)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$2.run(DesignerNewElementWizard.java:116)
+	... 7 more
+!SUBENTRY 1 org.eclipse.wb.core 4 0 2024-10-07 09:16:46.621
+!MESSAGE Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+	at org.eclipse.jdt.ui.wizards.NewContainerWizardPage.getInitialJavaElement(NewContainerWizardPage.java:234)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethod(ReflectionUtils.java:896)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethodEx(ReflectionUtils.java:875)
+	at org.eclipse.wb.internal.core.wizards.WizardUtils.getJavaElement(WizardUtils.java:47)
+	at org.eclipse.wb.internal.core.wizards.WizardUtils.getJavaProject(WizardUtils.java:33)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.getJavaProject(AbstractDesignWizard.java:169)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.finishPage(AbstractDesignWizard.java:87)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$2.run(DesignerNewElementWizard.java:116)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:739)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6144)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$WorkbenchRunnableAdapter.run(DesignerNewElementWizard.java:213)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.wb.core 4 4 2024-10-07 09:17:00.124
+!MESSAGE Designer [1.17.0.202407271802.202410070916]: Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+!STACK 1
+Java Model Exception: Core Exception [code 0] Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:52)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:739)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6144)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$WorkbenchRunnableAdapter.run(DesignerNewElementWizard.java:213)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+	at org.eclipse.jdt.ui.wizards.NewContainerWizardPage.getInitialJavaElement(NewContainerWizardPage.java:234)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethod(ReflectionUtils.java:896)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethodEx(ReflectionUtils.java:875)
+	at org.eclipse.wb.internal.core.wizards.WizardUtils.getJavaElement(WizardUtils.java:47)
+	at org.eclipse.wb.internal.core.wizards.WizardUtils.getJavaProject(WizardUtils.java:33)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.getJavaProject(AbstractDesignWizard.java:169)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.finishPage(AbstractDesignWizard.java:87)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$2.run(DesignerNewElementWizard.java:116)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	... 6 more
+Caused by: org.eclipse.core.runtime.CoreException: Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$2.run(DesignerNewElementWizard.java:118)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:739)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6144)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$WorkbenchRunnableAdapter.run(DesignerNewElementWizard.java:213)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+	at org.eclipse.jdt.ui.wizards.NewContainerWizardPage.getInitialJavaElement(NewContainerWizardPage.java:234)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethod(ReflectionUtils.java:896)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethodEx(ReflectionUtils.java:875)
+	at org.eclipse.wb.internal.core.wizards.WizardUtils.getJavaElement(WizardUtils.java:47)
+	at org.eclipse.wb.internal.core.wizards.WizardUtils.getJavaProject(WizardUtils.java:33)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.getJavaProject(AbstractDesignWizard.java:169)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.finishPage(AbstractDesignWizard.java:87)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$2.run(DesignerNewElementWizard.java:116)
+	... 7 more
+!SUBENTRY 1 org.eclipse.wb.core 4 0 2024-10-07 09:17:00.124
+!MESSAGE Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchPage.getActivePart()" because the return value of "org.eclipse.jdt.internal.ui.JavaPlugin.getActivePage()" is null
+	at org.eclipse.jdt.ui.wizards.NewContainerWizardPage.getInitialJavaElement(NewContainerWizardPage.java:234)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethod(ReflectionUtils.java:896)
+	at org.eclipse.wb.internal.core.utils.reflect.ReflectionUtils.invokeMethodEx(ReflectionUtils.java:875)
+	at org.eclipse.wb.internal.core.wizards.WizardUtils.getJavaElement(WizardUtils.java:47)
+	at org.eclipse.wb.internal.core.wizards.WizardUtils.getJavaProject(WizardUtils.java:33)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.getJavaProject(AbstractDesignWizard.java:169)
+	at org.eclipse.wb.internal.core.wizards.AbstractDesignWizard.finishPage(AbstractDesignWizard.java:87)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$2.run(DesignerNewElementWizard.java:116)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:739)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6144)
+	at org.eclipse.wb.internal.core.wizards.DesignerNewElementWizard$WorkbenchRunnableAdapter.run(DesignerNewElementWizard.java:213)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+!SESSION 2024-10-07 12:01:42.243 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-07 12:01:46.757
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-07 12:01:49.177
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-07 12:02:01.372
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-07 13:29:03.632 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-07 13:29:09.183
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-07 13:29:11.677
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-07 13:29:23.299
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-08 13:49:06.502 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-08 13:49:10.525
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-08 13:49:12.498
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-08 13:49:22.534
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-09 09:59:40.765 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-09 09:59:45.375
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-09 09:59:48.134
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-09 09:59:59.064
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-09 10:46:10.269 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-09 10:46:13.018
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-09 10:46:15.238
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-09 10:46:28.284
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-10 09:50:23.794 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-10 09:50:26.610
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-10 09:50:28.469
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-10 09:50:37.466
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-14 09:17:46.830 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-14 09:17:53.118
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-14 09:17:55.555
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-14 09:18:06.285
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-14 11:59:14.963 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-14 11:59:17.803
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-14 11:59:19.604
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-14 11:59:28.574
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wb.core 4 4 2024-10-14 12:40:24.250
+!MESSAGE Designer [1.17.0.202407271802.202410141240]: 205 (Unable to parse source.). 
+		frame.setIconImage(java.awt.Toolkit.getDefaultToolkit().getImage(Paneles.Paneles.class.getResource("/Paneles/images.png"))); line: 11 The method initialize() from the type Paneles is never used locally
+line: 14 Paneles.Paneles cannot be resolved to a type
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		frame.setIconImage(java.awt.Toolkit.getDefaultToolkit().getImage(Paneles.Paneles.class.getResource("/Paneles/images.png"))); line: 11 The method initialize() from the type Paneles is never used locally
+line: 14 Paneles.Paneles cannot be resolved to a type
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:161)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1609)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1563)
+	at org.eclipse.wb.core.model.JavaInfo.addExpressionStatement(JavaInfo.java:981)
+	at org.eclipse.wb.core.model.JavaInfo.addMethodInvocation(JavaInfo.java:945)
+	at org.eclipse.wb.core.model.JavaInfo.addMethodInvocation(JavaInfo.java:920)
+	at org.eclipse.wb.internal.core.model.property.accessor.SetterAccessor$4.run(SetterAccessor.java:145)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:328)
+	at org.eclipse.wb.internal.core.model.property.accessor.SetterAccessor.setExpression(SetterAccessor.java:142)
+	at org.eclipse.wb.internal.core.model.property.GenericPropertyImpl.setExpressionUsingAccessor(GenericPropertyImpl.java:343)
+	at org.eclipse.wb.internal.core.model.property.GenericPropertyImpl.setExpression(GenericPropertyImpl.java:302)
+	at org.eclipse.wb.internal.core.editor.icon.AbstractImagePropertyEditor.openDialog(AbstractImagePropertyEditor.java:114)
+	at org.eclipse.wb.internal.core.model.property.editor.TextDialogPropertyEditor$1.onClick(TextDialogPropertyEditor.java:35)
+	at org.eclipse.wb.internal.core.model.property.editor.presentation.ButtonPropertyEditorPresentationImpl.lambda$3(ButtonPropertyEditorPresentationImpl.java:116)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). package Paneles;
+import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import javax.swing.JButton;
+class Paneles {
+javax.swing.JFrame frame=(javax.swing.JFrame) null;
+public static void main(String[] args) {}
+private void initialize() {}
+Paneles(Object __wbp_param) {
+super();
+		frame.setIconImage(java.awt.Toolkit.getDefaultToolkit().getImage(Paneles.Paneles.class.getResource("/Paneles/images.png")));}
+} line: 11 The method initialize() from the type Paneles is never used locally
+line: 14 Paneles.Paneles cannot be resolved to a type
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:769)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:158)
+	... 38 more
+Caused by: org.eclipse.wb.internal.core.utils.check.AssertionFailedException: null argument
+	at org.eclipse.wb.internal.core.utils.check.Assert.fail(Assert.java:225)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isNotNull(Assert.java:174)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isNotNull(Assert.java:159)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:941)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3346)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3414)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:228)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3414)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:228)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3391)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:909)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:823)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:766)
+	... 39 more
+
+!ENTRY org.eclipse.wb.core 4 4 2024-10-14 12:40:51.473
+!MESSAGE Designer [1.17.0.202407271802.202410141240]: 205 (Unable to parse source.). 
+		frame.setIconImage(java.awt.Toolkit.getDefaultToolkit().getImage(Paneles.Paneles.class.getResource("/Paneles/images.png"))); line: 11 The method initialize() from the type Paneles is never used locally
+line: 14 Paneles.Paneles cannot be resolved to a type
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		frame.setIconImage(java.awt.Toolkit.getDefaultToolkit().getImage(Paneles.Paneles.class.getResource("/Paneles/images.png"))); line: 11 The method initialize() from the type Paneles is never used locally
+line: 14 Paneles.Paneles cannot be resolved to a type
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:161)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1609)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1563)
+	at org.eclipse.wb.core.model.JavaInfo.addExpressionStatement(JavaInfo.java:981)
+	at org.eclipse.wb.core.model.JavaInfo.addMethodInvocation(JavaInfo.java:945)
+	at org.eclipse.wb.core.model.JavaInfo.addMethodInvocation(JavaInfo.java:920)
+	at org.eclipse.wb.internal.core.model.property.accessor.SetterAccessor$4.run(SetterAccessor.java:145)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:328)
+	at org.eclipse.wb.internal.core.model.property.accessor.SetterAccessor.setExpression(SetterAccessor.java:142)
+	at org.eclipse.wb.internal.core.model.property.GenericPropertyImpl.setExpressionUsingAccessor(GenericPropertyImpl.java:343)
+	at org.eclipse.wb.internal.core.model.property.GenericPropertyImpl.setExpression(GenericPropertyImpl.java:302)
+	at org.eclipse.wb.internal.core.editor.icon.AbstractImagePropertyEditor.openDialog(AbstractImagePropertyEditor.java:114)
+	at org.eclipse.wb.internal.core.model.property.editor.TextDialogPropertyEditor$1.onClick(TextDialogPropertyEditor.java:35)
+	at org.eclipse.wb.internal.core.model.property.editor.presentation.ButtonPropertyEditorPresentationImpl.lambda$3(ButtonPropertyEditorPresentationImpl.java:116)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). package Paneles;
+import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import javax.swing.JButton;
+class Paneles {
+javax.swing.JFrame frame=(javax.swing.JFrame) null;
+public static void main(String[] args) {}
+private void initialize() {}
+Paneles(Object __wbp_param) {
+super();
+		frame.setIconImage(java.awt.Toolkit.getDefaultToolkit().getImage(Paneles.Paneles.class.getResource("/Paneles/images.png")));}
+} line: 11 The method initialize() from the type Paneles is never used locally
+line: 14 Paneles.Paneles cannot be resolved to a type
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:769)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:158)
+	... 38 more
+Caused by: org.eclipse.wb.internal.core.utils.check.AssertionFailedException: null argument
+	at org.eclipse.wb.internal.core.utils.check.Assert.fail(Assert.java:225)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isNotNull(Assert.java:174)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isNotNull(Assert.java:159)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:941)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3346)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3414)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:228)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3414)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:228)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3391)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:909)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:823)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:766)
+	... 39 more
+!SESSION 2024-10-14 12:50:12.530 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-14 12:50:16.095
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-14 12:50:17.911
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-14 12:50:26.939
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-15 10:00:27.627 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-15 10:00:31.022
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-15 10:00:33.097
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-15 10:00:44.238
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wb.core 4 4 2024-10-15 10:03:26.901
+!MESSAGE Designer [1.17.0.202407271802.202410151003]: 205 (Unable to parse source.). 
+		frame.getContentPane().setLayout(new com.jgoodies.forms.layout.FormLayout()); line: 10 The method initialize() from the type cuatroPaneles is never used locally
+line: 13 The type com.jgoodies.forms.layout.FormLayout is not accessible
+!STACK 0
+org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). 
+		frame.getContentPane().setLayout(new com.jgoodies.forms.layout.FormLayout()); line: 10 The method initialize() from the type cuatroPaneles is never used locally
+line: 13 The type com.jgoodies.forms.layout.FormLayout is not accessible
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:161)
+	at org.eclipse.wb.internal.core.utils.ast.AstEditor.addStatement(AstEditor.java:1609)
+	at org.eclipse.wb.internal.core.model.generation.statement.AbstractInsideStatementGenerator.add(AbstractInsideStatementGenerator.java:81)
+	at org.eclipse.wb.internal.core.model.generation.statement.PureFlatStatementGenerator.add(PureFlatStatementGenerator.java:45)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1390)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1293)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:430)
+	at org.eclipse.wb.internal.swing.gef.policy.layout.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:82)
+	at org.eclipse.wb.core.gef.command.EditCommand.lambda$0(EditCommand.java:50)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:328)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:50)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:170)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:63)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:268)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:252)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.lambda$2(EditEventManager.java:153)
+	at org.eclipse.wb.internal.draw2d.EventManager.delayEvent(EventManager.java:352)
+	at org.eclipse.wb.internal.gef.graphical.EditEventManager.dispatchMouseReleased(EditEventManager.java:141)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:598)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:237)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+Caused by: org.eclipse.wb.internal.core.utils.exception.DesignerException: 205 (Unable to parse source.). package prueba;
+import java.awt.EventQueue;
+import javax.swing.JFrame;
+import java.awt.GridLayout;
+import javax.swing.JPanel;
+import java.awt.GridBagLayout;
+class cuatroPaneles {
+javax.swing.JFrame frame=(javax.swing.JFrame) null;
+public static void main(String[] args) {}
+private void initialize() {}
+cuatroPaneles(Object __wbp_param) {
+super();
+		frame.getContentPane().setLayout(new com.jgoodies.forms.layout.FormLayout());}
+} line: 10 The method initialize() from the type cuatroPaneles is never used locally
+line: 13 The type com.jgoodies.forms.layout.FormLayout is not accessible
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:769)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.parseStatement(AstParser.java:158)
+	... 45 more
+Caused by: org.eclipse.wb.internal.core.utils.check.AssertionFailedException: null argument
+	at org.eclipse.wb.internal.core.utils.check.Assert.fail(Assert.java:225)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isNotNull(Assert.java:174)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isNotNull(Assert.java:159)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser$3.postVisit(AstParser.java:941)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3346)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3414)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:228)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3391)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.copyBindings(AstParser.java:909)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode0(AstParser.java:823)
+	at org.eclipse.wb.internal.core.utils.ast.AstParser.findNode(AstParser.java:766)
+	... 46 more
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-10-15 10:06:08.007
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:493)
+	at org.eclipse.wb.internal.core.model.clipboard.ComponentInfoMemento.getImage(ComponentInfoMemento.java:63)
+	at org.eclipse.wb.internal.core.model.clipboard.ComponentInfoMemento.getImage(ComponentInfoMemento.java:103)
+	at org.eclipse.wb.internal.swing.model.component.live.SwingLiveManager.getImage(SwingLiveManager.java:127)
+	at org.eclipse.wb.internal.swing.model.component.ComponentInfo.getLiveImage(ComponentInfo.java:258)
+	at org.eclipse.wb.core.model.AbstractComponentInfo.getImage(AbstractComponentInfo.java:176)
+	at org.eclipse.wb.internal.core.gef.policy.layout.absolute.AbsoluteBasedLayoutEditPolicy.showPasteFeedback(AbsoluteBasedLayoutEditPolicy.java:766)
+	at org.eclipse.wb.internal.core.gef.policy.layout.absolute.AbsoluteBasedLayoutEditPolicy.showLayoutTargetFeedback(AbsoluteBasedLayoutEditPolicy.java:313)
+	at org.eclipse.wb.gef.graphical.policies.LayoutEditPolicy.showTargetFeedback(LayoutEditPolicy.java:214)
+	at org.eclipse.wb.gef.core.EditPart.showTargetFeedback(EditPart.java:413)
+	at org.eclipse.wb.gef.core.tools.TargetingTool.showTargetFeedback(TargetingTool.java:241)
+	at org.eclipse.wb.gef.core.tools.TargetingTool.handleEnteredEditPart(TargetingTool.java:99)
+	at org.eclipse.wb.gef.core.tools.TargetingTool.setTargetEditPart(TargetingTool.java:76)
+	at org.eclipse.wb.gef.core.tools.TargetingTool.updateTargetUnderMouse(TargetingTool.java:177)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleMove(AbstractCreationTool.java:75)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseMove(Tool.java:299)
+	at org.eclipse.wb.internal.gef.core.EditDomain.setActiveTool(EditDomain.java:188)
+	at org.eclipse.wb.internal.core.editor.actions.PasteAction.run(PasteAction.java:65)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:124)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:299)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:485)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:569)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:644)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1319)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1198)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1183)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1225)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1221)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1704)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4849)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:347)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4727)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5091)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3710)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.wb.core 4 4 2024-10-15 12:23:14.457
+!MESSAGE Designer [1.17.0.202407271802.202410151003]: Execution flow problem. EventQueue.invokeLater(new Runnable(){
+  public void run(){
+    try {
+      VentanaCL window=new VentanaCL();
+      window.frame.setVisible(true);
+    }
+ catch (    Exception e) {
+      e.printStackTrace();
+    }
+  }
+}
+);
+ expected, but {
+  initialize();
+}
+ found.
+!STACK 0
+org.eclipse.wb.internal.core.utils.check.AssertionFailedException: Execution flow problem. EventQueue.invokeLater(new Runnable(){
+  public void run(){
+    try {
+      VentanaCL window=new VentanaCL();
+      window.frame.setVisible(true);
+    }
+ catch (    Exception e) {
+      e.printStackTrace();
+    }
+  }
+}
+);
+ expected, but {
+  initialize();
+}
+ found.
+	at org.eclipse.wb.internal.core.utils.check.Assert.fail(Assert.java:225)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isTrue(Assert.java:291)
+	at org.eclipse.wb.core.eval.ExecutionFlowDescription.leaveStatement(ExecutionFlowDescription.java:152)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:319)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:337)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:250)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:231)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:194)
+	at org.eclipse.wb.internal.core.model.ChildTargetCalculator.getLastTargetStatement(ChildTargetCalculator.java:200)
+	at org.eclipse.wb.internal.core.model.ChildTargetCalculator.getTarget(ChildTargetCalculator.java:105)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.getTarget(JavaInfoUtils.java:1635)
+	at org.eclipse.wb.internal.core.model.JavaInfoUtils.add(JavaInfoUtils.java:1292)
+	at org.eclipse.wb.internal.swing.model.component.ContainerInfo.setLayout(ContainerInfo.java:430)
+	at org.eclipse.wb.internal.swing.gefTree.policy.DropLayoutEditPolicy$1.executeEdit(DropLayoutEditPolicy.java:74)
+	at org.eclipse.wb.core.gef.command.EditCommand.lambda$0(EditCommand.java:50)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.run(ExecutionUtils.java:328)
+	at org.eclipse.wb.core.gef.command.EditCommand.execute(EditCommand.java:50)
+	at org.eclipse.wb.internal.gef.core.EditDomain.executeCommand(EditDomain.java:50)
+	at org.eclipse.wb.gef.core.tools.Tool.executeCommand(Tool.java:170)
+	at org.eclipse.wb.gef.core.tools.AbstractCreationTool.handleButtonUp(AbstractCreationTool.java:63)
+	at org.eclipse.wb.gef.core.tools.Tool.mouseUp(Tool.java:268)
+	at org.eclipse.wb.internal.gef.core.EditDomain.mouseUp(EditDomain.java:252)
+	at org.eclipse.wb.internal.gef.tree.TreeEventManager.mouseUp(TreeEventManager.java:119)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:237)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.waitEventLoop(ExecutionUtils.java:73)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils.invokeLaterAndWait(SwingUtils.java:172)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils.runLaterAndWait(SwingUtils.java:74)
+	at org.eclipse.wb.internal.swing.model.component.ComponentInfo.execRefreshOperation(ComponentInfo.java:119)
+	at org.eclipse.wb.core.model.ObjectInfo.refresh(ObjectInfo.java:478)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage$5.run(ComponentsTreePage.java:174)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runLog(ExecutionUtils.java:108)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage.selectGraphicalViewer(ComponentsTreePage.java:155)
+	at org.eclipse.wb.internal.core.editor.structure.components.ComponentsTreePage$1.selectionChanged(ComponentsTreePage.java:125)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.lambda$0(AbstractEditPartViewer.java:161)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:161)
+	at org.eclipse.wb.internal.gef.core.AbstractEditPartViewer.setSelection(AbstractEditPartViewer.java:225)
+	at org.eclipse.wb.internal.gef.tree.TreeViewer$1.widgetSelected(TreeViewer.java:187)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:265)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.eclipse.wb.core 4 4 2024-10-15 12:23:14.547
+!MESSAGE Designer [1.17.0.202407271802.202410151003]: Execution flow problem. frame=new JFrame();
+ expected, but JPanel panel=new JPanel();
+ found.
+!STACK 0
+org.eclipse.wb.internal.core.utils.check.AssertionFailedException: Execution flow problem. frame=new JFrame();
+ expected, but JPanel panel=new JPanel();
+ found.
+	at org.eclipse.wb.internal.core.utils.check.Assert.fail(Assert.java:225)
+	at org.eclipse.wb.internal.core.utils.check.Assert.isTrue(Assert.java:291)
+	at org.eclipse.wb.core.eval.ExecutionFlowDescription.leaveStatement(ExecutionFlowDescription.java:152)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:319)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:337)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:250)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$ExecutionFlowHandler.endVisit(ExecutionFlowUtils.java:1320)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$ExecutionFlowHandler.invoke(ExecutionFlowUtils.java:1276)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$VisitorStub$ByteBuddy$r5T8kref.endVisit(Unknown Source)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:230)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3391)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:353)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:337)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:250)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:231)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$ExecutionFlowHandler.endVisit(ExecutionFlowUtils.java:1306)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$ExecutionFlowHandler.invoke(ExecutionFlowUtils.java:1274)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils$VisitorStub$ByteBuddy$r5T8kref.endVisit(Unknown Source)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:307)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3391)
+	at org.eclipse.jdt.core.dom.VariableDeclarationFragment.accept0(VariableDeclarationFragment.java:238)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3414)
+	at org.eclipse.jdt.core.dom.VariableDeclarationStatement.accept0(VariableDeclarationStatement.java:253)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3414)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:128)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3391)
+	at org.eclipse.jdt.core.dom.TryStatement.accept0(TryStatement.java:274)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3414)
+	at org.eclipse.jdt.core.dom.Block.accept0(Block.java:128)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3391)
+	at org.eclipse.jdt.core.dom.MethodDeclaration.accept0(MethodDeclaration.java:677)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3414)
+	at org.eclipse.jdt.core.dom.AnonymousClassDeclaration.accept0(AnonymousClassDeclaration.java:135)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3391)
+	at org.eclipse.jdt.core.dom.ClassInstanceCreation.accept0(ClassInstanceCreation.java:305)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChildren(ASTNode.java:3414)
+	at org.eclipse.jdt.core.dom.MethodInvocation.accept0(MethodInvocation.java:228)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.jdt.core.dom.ASTNode.acceptChild(ASTNode.java:3391)
+	at org.eclipse.jdt.core.dom.ExpressionStatement.accept0(ExpressionStatement.java:136)
+	at org.eclipse.jdt.core.dom.ASTNode.accept(ASTNode.java:3343)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:353)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement0(ExecutionFlowUtils.java:337)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visitStatement(ExecutionFlowUtils.java:317)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:250)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:231)
+	at org.eclipse.wb.core.eval.ExecutionFlowUtils.visit(ExecutionFlowUtils.java:194)
+	at org.eclipse.wb.core.model.JavaInfo.refresh_create(JavaInfo.java:1194)
+	at org.eclipse.wb.core.model.ObjectInfo.refreshCreate0(ObjectInfo.java:516)
+	at org.eclipse.wb.core.model.ObjectInfo.lambda$4(ObjectInfo.java:478)
+	at org.eclipse.wb.internal.core.utils.execution.ExecutionUtils.runDesignTime(ExecutionUtils.java:147)
+	at org.eclipse.wb.core.model.ObjectInfo.lambda$3(ObjectInfo.java:478)
+	at org.eclipse.wb.internal.swing.utils.SwingUtils$2.run(SwingUtils.java:78)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+!SESSION 2024-10-17 08:58:25.349 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-17 08:58:30.923
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-17 08:58:33.436
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-17 08:58:44.516
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-18 08:32:55.850 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-18 08:33:00.241
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-18 08:33:03.356
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-18 08:33:16.311
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-10-18 10:11:51.572
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1356)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	... 9 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-10-18 10:11:51.573
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2024-10-18 10:11:51.596
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.evaluateField(JavaDebugHover.java:527)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-10-18 10:14:54.843
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1356)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	... 9 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-10-18 10:14:54.843
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2024-10-18 10:14:54.868
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.evaluateField(JavaDebugHover.java:527)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-10-18 10:14:56.075
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1356)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	... 9 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-10-18 10:14:56.075
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2024-10-18 10:14:56.076
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.evaluateField(JavaDebugHover.java:527)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-10-18 10:34:21.592
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1356)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	... 9 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-10-18 10:34:21.592
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2024-10-18 10:34:21.601
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.evaluateField(JavaDebugHover.java:527)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-10-18 10:37:13.256
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1356)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	... 9 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-10-18 10:37:13.257
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2024-10-18 10:37:13.259
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.evaluateField(JavaDebugHover.java:527)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-10-18 10:45:36.263
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1356)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	... 9 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-10-18 10:45:36.264
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2024-10-18 10:45:36.265
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.evaluateField(JavaDebugHover.java:527)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-10-18 11:01:20.342
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1356)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	... 9 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-10-18 11:01:20.342
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2024-10-18 11:01:20.343
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.evaluateField(JavaDebugHover.java:527)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug.ui 4 150 2024-10-18 11:21:36.365
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1356)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+Caused by: java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	... 9 more
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2024-10-18 11:21:36.366
+!MESSAGE Invalid stack frame
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.lambda$3(JavaDebugHover.java:650)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.findFirstFrameForVariable(JavaDebugHover.java:603)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2024-10-18 11:21:36.367
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1359)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:1008)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1427)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.evaluateField(JavaDebugHover.java:527)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:387)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-10-18 12:09:18.094
+!MESSAGE Failed to initialize Git team provider.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Project.move(Project.java:1042)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:145)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:120)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Contains: Could not move '/WindowBuilder'.
+org.eclipse.core.runtime.CoreException: Could not move: C:\Users\CFGS.LAB37_PC\Interfaces\WindowBuilder.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:363)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:452)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:875)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:768)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1092)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:1035)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:145)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:120)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: org.eclipse.core.runtime.CoreException: Could not delete: C:\Users\CFGS.LAB37_PC\Interfaces\WindowBuilder.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:191)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:359)
+	... 13 more
+Caused by: java.nio.file.FileSystemException: C:\Users\CFGS.LAB37_PC\Interfaces\WindowBuilder: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:275)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:189)
+	... 14 more
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2024-10-18 12:09:18.094
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2024-10-18 12:09:18.094
+!MESSAGE Could not move '/WindowBuilder'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not move: C:\Users\CFGS.LAB37_PC\Interfaces\WindowBuilder.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:363)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:452)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:875)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:768)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1092)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:1035)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:145)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:120)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: org.eclipse.core.runtime.CoreException: Could not delete: C:\Users\CFGS.LAB37_PC\Interfaces\WindowBuilder.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:191)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:359)
+	... 13 more
+Caused by: java.nio.file.FileSystemException: C:\Users\CFGS.LAB37_PC\Interfaces\WindowBuilder: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:275)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:189)
+	... 14 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 272 2024-10-18 12:09:18.095
+!MESSAGE Could not move: C:\Users\CFGS.LAB37_PC\Interfaces\WindowBuilder.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete: C:\Users\CFGS.LAB37_PC\Interfaces\WindowBuilder.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:191)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:359)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:452)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:875)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:768)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1092)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:1035)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:145)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:120)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.nio.file.FileSystemException: C:\Users\CFGS.LAB37_PC\Interfaces\WindowBuilder: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:275)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:189)
+	... 14 more
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2024-10-18 12:09:18.095
+!MESSAGE Could not delete: C:\Users\CFGS.LAB37_PC\Interfaces\WindowBuilder.
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\CFGS.LAB37_PC\Interfaces\WindowBuilder: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:109)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:275)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:189)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:359)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:452)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:875)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:768)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1092)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:1035)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:145)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:120)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.lambda$0(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+!SESSION 2024-10-18 13:09:10.012 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-18 13:09:13.293
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-18 13:09:15.305
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-18 13:09:23.134
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-21 08:45:14.716 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-21 08:45:18.088
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-21 08:45:20.290
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-21 08:45:27.681
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-21 10:08:21.012 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\CFGS.LAB37_PC\Interfaces
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-21 10:08:24.142
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-10-21 10:08:26.021
+!MESSAGE Logback config file: C:\Users\CFGS.LAB37_PC\Interfaces\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-21 10:08:35.241
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\CFGS.LAB37_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.core 4 0 2024-10-21 10:08:35.324
+!MESSAGE Remove repository mapping of Git mapped resource for which project or mapped git repository has disappeared: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/CFGS.LAB37_PC/git/desarrollo-interfaces/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logAndUnmapGoneMappedResource(GitProjectData.java:751)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:714)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:678)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:661)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:335)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:708)
+	at org.eclipse.egit.core.internal.info.GitItemStateFactory.getIndexDiffDataOrNull(GitItemStateFactory.java:106)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:194)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-10-21 10:08:35.652
+!MESSAGE Remove repository mapping of Git mapped resource for which project or mapped git repository has disappeared: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/CFGS.LAB37_PC/git/desarrollo-interfaces/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logAndUnmapGoneMappedResource(GitProjectData.java:751)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:714)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:678)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:661)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:335)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:296)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:708)
+	at org.eclipse.egit.core.internal.info.GitItemStateFactory.getIndexDiffDataOrNull(GitItemStateFactory.java:106)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:194)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:172)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:250)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:359)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:345)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:410)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
