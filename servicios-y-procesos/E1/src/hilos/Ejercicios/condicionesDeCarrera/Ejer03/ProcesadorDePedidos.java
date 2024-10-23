@@ -45,18 +45,31 @@ class ProcesarPedido implements Runnable {
 
 
 public class ProcesadorDePedidos {
-    private List<String> pedidos = new ArrayList<>();
+    private List<String> pedidos = new ArrayList<>(); // No es segura para concurrencia.
 
-    public void agregarPedido(String pedido) {
+    /*
+     * Como esta clase no tiene absolutamente nada más que la variable pedido
+     * y metodos que la utilizan y la sección crítica de cada método es el método
+     * enterp, synchronized al método es una solución válida. si tuviera, además de pedidos, un arraylist de clientes,
+     * tendría que crear 2 locks, uno para clientes y otro para pedidos.
+     * 
+     * Lo único que seguirá pasando que se quedan pedidos sin procesar. Esto no es un
+     * problema de concurrencia. Si fuera secuencial, podría pasarnos también.
+     * Dependiendo de los tiempos, podrían quedarse pedidos sin procesar
+     */
+    
+    public synchronized void agregarPedido(String pedido) { // Bloquear todo el objeto cada vez que necesite hacer algo
         pedidos.add(pedido);
         System.out.println("Pedido agregado: " + pedido);
     }
 
-    public void procesarPedido() {
+    public synchronized void procesarPedido() {
         if (!pedidos.isEmpty()) {
             String pedido = pedidos.remove(0);
             System.out.println("Pedido procesado: " + pedido);
         } else {
+        	// Aquí en lugar de esto tendria que ESPERAR a que hayan
+        	// llegado los siguientes pedidos, Esa espera es variable.
             System.out.println("No hay pedidos para procesar.");
         }
     }

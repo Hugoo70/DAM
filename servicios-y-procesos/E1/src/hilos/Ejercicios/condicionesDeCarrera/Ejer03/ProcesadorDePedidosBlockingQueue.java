@@ -1,15 +1,16 @@
 package hilos.Ejercicios.condicionesDeCarrera.Ejer03;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.LinkedBlockingQueue;
 
 
 /**
  * EJEMPLO DE PRODUCTOR CONSUMIDOR.
  */
-class AgregarPedido implements Runnable {
+class BQAgregarPedido implements Runnable {
     private ProcesadorDePedidosBlockingQueue procesador;
 
-    public AgregarPedido(ProcesadorDePedidosBlockingQueue procesador) {
+    public BQAgregarPedido(ProcesadorDePedidosBlockingQueue procesador) {
         this.procesador = procesador;
     }
 
@@ -27,10 +28,10 @@ class AgregarPedido implements Runnable {
 }
 
 
-class ProcesarPedido implements Runnable {
+class BQProcesarPedido implements Runnable {
     private ProcesadorDePedidosBlockingQueue procesador;
 
-    public ProcesarPedido(ProcesadorDePedidosBlockingQueue procesador) {
+    public BQProcesarPedido(ProcesadorDePedidosBlockingQueue procesador) {
         this.procesador = procesador;
     }
 
@@ -49,7 +50,10 @@ class ProcesarPedido implements Runnable {
 
 
 public class ProcesadorDePedidosBlockingQueue {
-    private List<String> pedidos = new ArrayList<>();
+    private LinkedBlockingQueue<String> pedidos = new LinkedBlockingQueue<>();
+    // Es un tipo de dato seguro para concurrencia que permite a un hilo
+    // esperar. Blocking de "bloqueante". Es capaz de poner a la espera (es decir,
+    // bloquear) un hilo.
 
     public void agregarPedido(String pedido) {
         pedidos.add(pedido);
@@ -57,19 +61,22 @@ public class ProcesadorDePedidosBlockingQueue {
     }
 
     public void procesarPedido() {
-        if (!pedidos.isEmpty()) {
-            String pedido = pedidos.remove(0);
-            System.out.println("Pedido procesado: " + pedido);
-        } else {
-            System.out.println("No hay pedidos para procesar.");
-        }
+            String pedido = null;
+			try {
+				pedido = pedidos.take();
+	            System.out.println("Pedido procesado: " + pedido);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				System.out.println("No hay pedidos para procesar.");
+				e.printStackTrace();
+			}
     }
     
     public static void main(String[] args) {
         ProcesadorDePedidosBlockingQueue procesador = new ProcesadorDePedidosBlockingQueue();
 
-        Thread hiloAgregar = new Thread(new AgregarPedido(procesador));
-        Thread hiloProcesar = new Thread(new ProcesarPedido(procesador));
+        Thread hiloAgregar = new Thread(new BQAgregarPedido(procesador));
+        Thread hiloProcesar = new Thread(new BQProcesarPedido(procesador));
 
         hiloAgregar.start();
         hiloProcesar.start();

@@ -2,6 +2,7 @@ package hilos.Ejercicios.condicionesDeCarrera.Ejer05;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.concurrent.ConcurrentSkipListSet;
 
 class Registro implements Runnable {
     private RegistroUsuarios registro;
@@ -21,9 +22,10 @@ class Registro implements Runnable {
 
 
 public class RegistroUsuarios {
-    private Set<String> usuarios = new HashSet<>();
+    private ConcurrentSkipListSet<String> usuarios = new ConcurrentSkipListSet<>();
 
     public void registrarUsuario(String nombreUsuario) {
+    	boolean     added = usuarios.add(nombreUsuario);
         if (!usuarios.contains(nombreUsuario)) {
             usuarios.add(nombreUsuario);
             System.out.println("Usuario registrado: " + nombreUsuario);

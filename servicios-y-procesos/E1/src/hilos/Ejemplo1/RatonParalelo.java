@@ -26,7 +26,7 @@ public class RatonParalelo extends Thread{
 			e.printStackTrace();
 		}
 	}
-	
+	// a
 	public static void main(String[] args) {
 		RatonParalelo Arturo = new RatonParalelo("Arturo",4);
 		RatonParalelo Bob = new RatonParalelo("Bob",5);

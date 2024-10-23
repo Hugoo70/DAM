@@ -1,4 +1,4 @@
-package hilos.Ejercicios.condicionesDeCarrera.Ejer04;
+ package hilos.Ejercicios.condicionesDeCarrera.Ejer04;
 
 class ProcesarFactura implements Runnable {
     private CalculadoraFacturas calculadora;
@@ -23,13 +23,19 @@ class ProcesarFactura implements Runnable {
 
 
 public class CalculadoraFacturas {
-    private double total;
-
+    volatile private double total;
+    
+    
     public void calcularFactura(double monto, double descuento, double tasa) {
         double montoConDescuento = monto - (monto * descuento);
         double montoConTasa = montoConDescuento + (montoConDescuento * tasa);
-        total += montoConTasa;
-        System.out.println("Factura procesada: " + montoConTasa + ". Total acumulado: " + total);
+        
+        // Inicio Sección Crítica
+        synchronized (this) {
+        	total += montoConTasa;
+            System.out.println("Factura procesada: " + montoConTasa + ". Total acumulado: " + total);	
+		}
+        // Fin Sección Crítica
     }
 
     public double getTotal() {

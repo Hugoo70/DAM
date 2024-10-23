@@ -1,5 +1,18 @@
 package Pr2;
 
-public interface Robot {
+public class Robot {
+	 private String nombre;
+	 private int tiempoOperacion;
+	 
+	 
+	public Robot(String nombre, int tiempoOperacion) {
+		// super();
+		this.nombre = nombre;
+		this.tiempoOperacion = tiempoOperacion;
+	}
+	
+	public void operar() {
+		   
+	}
 	 
 }
