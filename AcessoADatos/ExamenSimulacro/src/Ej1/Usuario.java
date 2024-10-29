@@ -1,36 +1,36 @@
 package Ej1;
 
 public class Usuario {
-	private String nombre;
-	private String contra;
+	private String usuario;
+	private String password;
 	private String rol;
 	
 	
-	public Usuario(String nombre, String contra, String rol) {
+	public Usuario(String usuario, String password, String rol) {
 		//super();
-		this.nombre = nombre;
-		this.contra = contra;
+		this.usuario = usuario;
+		this.password = password;
 		this.rol = rol;
 	}
 
 
-	public String getNombre() {
-		return nombre;
+	public String getUsuario() {
+		return usuario;
 	}
 
 
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
 	}
 
 
-	public String getContra() {
-		return contra;
+	public String getPassword() {
+		return password;
 	}
 
 
-	public void setContra(String contra) {
-		this.contra = contra;
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 
@@ -46,7 +46,7 @@ public class Usuario {
 
 	@Override
 	public String toString() {
-		return "Usuario [nombre=" + nombre + ", contra=" + contra + ", rol=" + rol + "]";
+		return "Usuario [nombre=" + usuario + ", contra=" + password + ", rol=" + rol + "]";
 	}
 	
 	

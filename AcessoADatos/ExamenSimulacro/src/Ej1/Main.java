@@ -7,143 +7,148 @@ import java.util.Scanner;
 public class Main {
 	static Scanner teclado = new Scanner(System.in);
 
-	public static void crearFichero(String ruta) {
-		File f = new File(ruta);
-		if(!f.exists()) {
-			try {
-				f.createNewFile();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}else {
-			System.out.println("El fichero ya existe");
-		}
-		
-	}
-	public static ArrayList<Usuario> leerFichero(String ruta, ArrayList<Usuario> usuarios){
+	public static ArrayList<Usuario> leerFichero(String ruta, ArrayList<Usuario> usuarios) {
 		String Linea = "";
-		String partesLinea[];
-		try(BufferedReader bf = new BufferedReader(new FileReader(ruta))){
-			while((Linea = bf.readLine())!=null) {
-				partesLinea = Linea.split(";");
-				Usuario u = new Usuario(partesLinea[0],partesLinea[1], partesLinea[2]);
-				usuarios.add(u);
-			}
-			
-		}catch (IOException e) {
-			e.printStackTrace();
-		}
-		return usuarios;
-		
-	}
-	
-	public static void visualizarUsuario(ArrayList<Usuario> usuarios) {
-		for (Usuario u : usuarios) {
-			System.out.println(u);
-		} 
-		
-	}
-	
-	public static String ComprobarDatos(ArrayList<Usuario> usuarios) {
-		int contador = 0;
-		boolean encontrado = false;
-		Usuario usuarioComprobado;
-		String rol = null;
-		
-		System.out.println("Introduce el nombre del usuario: ");
-		String nombre = teclado.nextLine();
-		System.out.println("Introduce la contraseña del usuario: ");
-		String pass = teclado.nextLine();
-		
-		while((contador<usuarios.size())&&(!encontrado)) {
-			usuarioComprobado=usuarios.get(contador);
-			
-			if((nombre.equals(usuarioComprobado.getNombre()))&&(nombre.equals(usuarioComprobado.getContra()))) {
-				rol = usuarioComprobado.getRol();
-				encontrado = true;
-			}
-			contador++;
-		}
-		return rol;
-	}
-	
-	public static void EscribirUsuario(String ruta, ArrayList<Usuario> usuarios) {
-		System.out.println("Introduce el usuario: ");
-		String usuario = teclado.nextLine();
-		System.out.println("Introduce la contraseña: ");
-		String pass = teclado.nextLine();
-		System.out.println("Introduce el rol: ");
-		String rol= teclado.nextLine();
 
-		Usuario u  = new Usuario(usuario, pass, rol);
-		usuarios.add(u);
-		try(BufferedWriter bw = new BufferedWriter(new FileWriter(ruta,true))) { // True para no sobreescribir los datos del fichero
-			bw.write(usuarios);
+		try (BufferedReader br = new BufferedReader(new FileReader(ruta))) {
+			while ((Linea = br.readLine()) != null) {
+				String[] partesLinea = Linea.split(";");
+                if (partesLinea.length >= 3) {
+                    Usuario u = new Usuario(partesLinea[0], partesLinea[1], partesLinea[2]);
+                    usuarios.add(u);
+                }
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		return usuarios;
 	}
-	
-	public static void opcionesAdmin() {
-		int opcion = 0;
-		teclado.nextLine();
-		do {
-		System.out.println("Teclea la opción\n1. Añadir usuarios.\n2. Mostrar Usuarios.\n0. Salir");
-		
-		switch (opcion) {
-		case 1:
-			//Escribir usuario
-			break;
-			
-		case 2:
-			// Mostrar al usuario
-			break;
-			
-		case 0:
-			
-			break;
 
-		default:
-			System.out.println("No es valida la opción");
-			break;
-		}
-		opcion = teclado.nextInt();
-		}while(opcion!=0);
-	}
-	
-	public static void filtrarRoles(String rol, ArrayList<Usuario> usuarios) {
-		if(rol!=null) {
-			
-			if(rol.equalsIgnoreCase("administrador")) {
-				//Añadir user
-				//Mostrar user con contraseña ocultas
-				opcionesAdmin();
-			}else {
-				if(rol.equalsIgnoreCase("usuario")) {
-					
-				}else {
-					if(rol.equalsIgnoreCase("lector")) {
-						
-					}else {
-						System.out.println("El rol no existe");
-					}
-				}
+	public static String login(ArrayList<Usuario> usuarios) {
+		String rol = null;
+		int i = 0;
+		boolean encontrado = false;
+
+		System.out.println("Introduce el nombre: ");
+		String nombre = teclado.nextLine();
+		System.out.println("Introduce la contra: ");
+		String pass = teclado.nextLine();
+
+		while ((i < usuarios.size()) && (!encontrado)) {
+			Usuario u = usuarios.get(i);
+			if ((nombre.equalsIgnoreCase(u.getUsuario())) && (pass.equalsIgnoreCase(u.getPassword()))) {
+				rol = u.getRol();
+				encontrado = true;
+
 			}
-			
-		}else{
-			System.out.println("El usuario o contraseña no coinciden");
+			i++;
+
+		}
+		System.out.println("Usuario encontrado: " + encontrado);
+		return rol;
+	}
+
+	public static void menu(String ruta, String rol, ArrayList<Usuario> usuarios) {
+		if (rol != null) {
+			switch (rol) {
+			case "administrador":
+				menuAdmin(ruta, usuarios);
+				break;
+			case "usuario":
+				contarRoles(usuarios);
+				break;
+			case "lector":
+				System.out.println("Bienvenidoo");
+				break;
+
+			default:
+				break;
+			}
+
+		}
+
+	}
+
+	public static void contarRoles(ArrayList<Usuario> usuarios) {
+		int admin = 0;
+		int user = 0;
+		int lectura = 0;
+
+		for (Usuario usuario : usuarios) {
+			if (usuario.getRol().equals("administrador")) {
+				admin++;
+			} else if (usuario.getRol().equals("usuario")) {
+				user++;
+			} else {
+				lectura++;
+			}
+		}
+		System.out.println("Hay " + admin + " Administrador, " + user + " Usuario, " + lectura + " lectura");
+	}
+
+	private static void menuAdmin(String ruta, ArrayList<Usuario> usuarios) {
+		int opcion = 0;
+		do {
+			// Mostrar el menú del administrador
+			System.out.println("\n--- Menú Administrador ---");
+			System.out.println("1. Añadir usuarios");
+			System.out.println("2. Mostrar usuarios");
+			System.out.println("0. Salir");
+			System.out.print("Seleccione una opción: ");
+			opcion = teclado.nextInt();
+			teclado.nextLine(); // Limpiar buffer
+
+			switch (opcion) {
+			case 1:
+				addUser(ruta, usuarios);
+				break;
+
+			case 2:
+				showUser(usuarios);
+				break;
+
+			case 0:
+				System.out.println("Saliendo...");
+				break;
+
+			default:
+				break;
+			}
+		} while (opcion != 0);
+	}
+
+	private static void showUser(ArrayList<Usuario> usuarios) {
+		for (Usuario usuario : usuarios) {
+			String pasw = ("*").repeat(usuario.getPassword().length());
+			System.out.println(usuario.getUsuario() + ":" + pasw);
 		}
 	}
-	
+
+	public static void addUser(String ruta, ArrayList<Usuario> usuarios) {
+		System.out.println("Introduce el nombre: ");
+		String nombre = teclado.nextLine();
+		System.out.println("Introduce la pass: ");
+		String pass = teclado.nextLine();
+		System.out.println("Introduce el rol: ");
+		String rol = teclado.nextLine();
+
+		Usuario x = new Usuario(nombre, pass, rol);
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(ruta, true))) {
+			bw.write("\n" + x.getUsuario() + ";" + x.getPassword() + ";" + x.getRol());
+			bw.newLine();
+			System.out.println("Usuario introducido correctamente");
+		} catch (IOException e) {
+			System.out.println("Error al escribir " + e.getMessage());
+		}
+	}
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String ruta = "datos.txt";
 		ArrayList<Usuario> usuarios = new ArrayList<>();
-		crearFichero(ruta);
-		usuarios = leerFichero(ruta,usuarios);
-		//visualizarUsuario(usuarios);
-		filtrarRoles(ComprobarDatos(usuarios), ruta, usuarios);
+		String ruta = "usuarios.txt";
+		usuarios = leerFichero(ruta, usuarios);
+		String rol = login(usuarios);
+		menu(ruta, rol, usuarios);
+
 	}
 
 }

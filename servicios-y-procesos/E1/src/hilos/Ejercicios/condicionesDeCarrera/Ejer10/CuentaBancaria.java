@@ -28,11 +28,11 @@ public class CuentaBancaria {
         this.balance = balanceInicial;
     }
 
-    public void depositar(int cantidad) {
+    public synchronized void depositar(int cantidad) {
         balance += cantidad;
     }
 
-    public void retirar(int cantidad) {
+    public synchronized void retirar(int cantidad) {
         balance -= cantidad;
     }
 
@@ -41,7 +41,7 @@ public class CuentaBancaria {
         destino.depositar(cantidad);
     }
 
-    public int getBalance() {
+    public synchronized int getBalance() {
         return balance;
     }
     
