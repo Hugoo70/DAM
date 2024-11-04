@@ -1,8 +1,0 @@
-Samuel;1234;administrador
-Beatriz;123;administrador
-Leticia;12;usuario
-Pepe;123abd;lector
-Hugo;12;usuario
-Hugo;12345;lector
-
-Sofia;12;administrador

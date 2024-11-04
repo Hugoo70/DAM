@@ -11,5 +11,9 @@
     <fullyQualifiedTypeName name="Ejemplo.Alumno"/>
     <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
     <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+=======
+    <fullyQualifiedTypeName name="Ej1.Usuario"/>
+>>>>>>> origin
 </qualifiedTypeNameHistroy>

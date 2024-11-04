@@ -22,12 +22,11 @@ class Registro implements Runnable {
 
 
 public class RegistroUsuarios {
-    private ConcurrentSkipListSet<String> usuarios = new ConcurrentSkipListSet<>();
+    private Set<String> usuarios = new ConcurrentSkipListSet<>();
 
     public void registrarUsuario(String nombreUsuario) {
-    	boolean     added = usuarios.add(nombreUsuario);
-        if (!usuarios.contains(nombreUsuario)) {
-            usuarios.add(nombreUsuario);
+    	boolean agregado = usuarios.add(nombreUsuario);
+        if (agregado) {
             System.out.println("Usuario registrado: " + nombreUsuario);
         } else {
             System.out.println("El usuario " + nombreUsuario + " ya existe.");
@@ -41,8 +40,20 @@ public class RegistroUsuarios {
         Thread hilo1 = new Thread(new Registro(registro, "usuario1"));
         Thread hilo2 = new Thread(new Registro(registro, "usuario1"));
 
+
         hilo1.start();
         hilo2.start();
+
+
+        try {
+        	// Se ordenan para que el padre las ejecute en este orden, empiza una y espera a que termine para lanzar la otra.
+        	// WIFEXITED
+            hilo1.join();
+            hilo2.join();
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 }

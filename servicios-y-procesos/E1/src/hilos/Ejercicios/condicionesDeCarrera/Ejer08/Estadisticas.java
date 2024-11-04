@@ -23,10 +23,17 @@ public class Estadisticas {
     private int suma = 0;
     private int conteo = 0;
 
+    final private Object lock = new Object();
     public void actualizarEstadisticas(int valor) {
+    	double promedio;
+		synchronized (lock) {
+    	// Inicio seccción critica
         suma += valor;
         conteo++;
-        double promedio = (double) suma / conteo;
+        promedio = (double) suma / conteo;
+        //Fin seccion critica
+        //Soluciones: declarar promedio fuera del sync.
+    }
         System.out.println("Valor agregado: " + valor + ". Promedio actual: " + promedio);
     }
     
@@ -38,5 +45,15 @@ public class Estadisticas {
 
         hilo1.start();
         hilo2.start();
+        
+		try {
+			hilo1.join();
+			hilo2.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+			//Este código se ejecuta cuando a alguno de los hilos no se les ha
+			//permitido terminar normalmente, "Desde fuera" se interrumpe (mata)
+		
+    }
     }
 }

@@ -1,0 +1,7 @@
+Beatriz,10,2
+Luis,9,1
+Nuria,5,1
+Teodora,7,2
+Santiago,6,2
+Hugo,10,2
+Sergio,9,2
