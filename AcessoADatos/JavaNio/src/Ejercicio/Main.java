@@ -1,6 +1,6 @@
-package Ej1;
+package Ejercicio;
 
-public class Error {
+public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

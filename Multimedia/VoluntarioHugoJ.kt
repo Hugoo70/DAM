@@ -1,5 +1,8 @@
 open class Vehiculo(val marca: String, val modelo: String, val año: Int, val propietario: Persona?) {
+    companion object {
         var contadorVehiculos = 0 
+    }
+    
     init {
         contadorVehiculos++ 
     }
@@ -35,3 +38,4 @@ fun main() {
         }
     }
 }
+

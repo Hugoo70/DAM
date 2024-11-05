@@ -1,15 +1,8 @@
-package prueba;
+package Mixto;
 
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
 import java.awt.Color;
 import java.awt.Component;
-
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-
-import java.awt.BorderLayout;
+import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Image;
@@ -19,10 +12,13 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-import javax.swing.Timer;
 import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.Timer;
+import javax.swing.WindowConstants;
 
 public class Crono {
 
@@ -35,6 +31,7 @@ public class Crono {
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
+			@Override
 			public void run() {
 				try {
 					Crono window = new Crono();
@@ -59,30 +56,31 @@ public class Crono {
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(new Color(192, 192, 192));
-		
+
 		JLabel lblNewLabel = new JLabel("CUENTA ATRÁS");
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 33));
 		lblNewLabel.setBounds(103, 29, 229, 89);
 		frame.getContentPane().add(lblNewLabel);
-		
+
 		JButton btnNewButton = new JButton("START");
 		btnNewButton.setBackground(new Color(0, 255, 64));
 		btnNewButton.setBounds(67, 160, 89, 23);
 		frame.getContentPane().add(btnNewButton);
-		
+
 		JLabel lblNewLabel_1 = new JLabel("10");
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		lblNewLabel_1.setBounds(287, 151, 55, 32);
 		frame.getContentPane().add(lblNewLabel_1);
-		
+
 		JLabel lblNewLabel_2 = new JLabel("xxxxx");
 		lblNewLabel_2.setBounds(0, 0, 434, 261);
 		lblNewLabel_2.setVisible(false);
 		frame.getContentPane().add(lblNewLabel_2);
 		frame.setBounds(100, 100, 450, 300);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
 		btnNewButton.addActionListener(new ActionListener() {
+			@Override
 			public void actionPerformed(ActionEvent e) {
 				i=5;
 				crono.start();
@@ -91,22 +89,22 @@ public class Crono {
 
 			}
 		});
-		
+
 
 		crono = new Timer(10, new ActionListener()  {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				i--;
 				lblNewLabel_1.setText(String.valueOf(i));
-				
+
 				if(i==0) {
 					lblNewLabel_2.setVisible(true);
 					frame.getContentPane().add(createContentPanelConFondo());
 					crono.stop();
-									
+
 				}
-				
-				
+
+
 			}
 			private Component createContentPanelConFondo() {
 				final Image imagenFondo = requestImage();
@@ -121,7 +119,7 @@ public class Crono {
 						g.drawImage(imagenFondo, 0, 0, W, H, null);
 					}
 				};
-				
+
 				int W = frame.getWidth();
 				int H = frame.getHeight();
 				panel.setSize(W, H);
@@ -141,5 +139,5 @@ public class Crono {
 			}
 		});
 	}
-	
+
 }
