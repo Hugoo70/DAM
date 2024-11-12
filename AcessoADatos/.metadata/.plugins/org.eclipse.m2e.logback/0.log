@@ -2849,3 +2849,5 @@
 2024-11-05 13:28:59,662 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:420) - Stopping all threads monitoring thread
 2024-11-05 13:28:59,663 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:425) - Closing ThreadHolder
 2024-11-05 13:28:59,664 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:430) - Shutting down ThreadSupplier
+2024-11-11 17:19:02,920 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-12 18:40:16,454 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
