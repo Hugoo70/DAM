@@ -17,4 +17,5 @@
     <fullyQualifiedTypeName name="java.sql.Array"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="ProyectoHugo.Mecanografia"/>
 </qualifiedTypeNameHistroy>

@@ -13,4 +13,7 @@
     <fullyQualifiedTypeName name="Ej1.Usuario"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.nio.file.Files"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.DocumentBuilderFactory"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.ParserConfigurationException"/>
+    <fullyQualifiedTypeName name="org.xml.sax.SAXException"/>
 </qualifiedTypeNameHistroy>
