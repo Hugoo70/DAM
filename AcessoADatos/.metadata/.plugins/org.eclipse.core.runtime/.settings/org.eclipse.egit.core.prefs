@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 GitRepositoriesView.GitDirectories=C\:\\Users\\CFGS.LAB37_PC\\git\\acceso-a-datos\\.git;C\:\\Users\\CFGS.LAB37_PC\\git\\acceso-a-datos\\Practica2\\.git;C\:\\Users\\CFGS.LAB37_PC\\git\\.git;C\:\\Users\\Usuario\\Desktop\\DAM\\.git;
 GitRepositoriesView.GitDirectories.relative=C\:\\Users\\CFGS.LAB37_PC\\git\\acceso-a-datos\\.git;C\:\\Users\\CFGS.LAB37_PC\\git\\acceso-a-datos\\Practica2\\.git;C\:\\Users\\CFGS.LAB37_PC\\git\\.git;C\:\\Users\\Usuario\\Desktop\\DAM\\.git;
+=======
+GitRepositoriesView.GitDirectories=C\:\\Users\\CFGS.LAB37_PC\\git\\acceso-a-datos\\.git;C\:\\Users\\CFGS.LAB37_PC\\git\\acceso-a-datos\\Practica2\\.git;C\:\\Users\\CFGS.LAB37_PC\\git\\.git;C\:\\Users\\CFGS.LAB37_PC\\Desktop\\DAM\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\CFGS.LAB37_PC\\git\\acceso-a-datos\\.git;C\:\\Users\\CFGS.LAB37_PC\\git\\acceso-a-datos\\Practica2\\.git;C\:\\Users\\CFGS.LAB37_PC\\git\\.git;C\:\\Users\\CFGS.LAB37_PC\\Desktop\\DAM\\.git;
+>>>>>>> 4c153bff8859b09fdc22807f54febe9065305548
 eclipse.preferences.version=1
