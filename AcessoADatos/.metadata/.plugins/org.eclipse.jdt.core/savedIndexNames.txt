@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-INDEX VERSION 1.134+C:\Users\Usuario\Desktop\DAM\DAM\AcessoADatos\.metadata\.plugins\org.eclipse.jdt.core
-=======
 INDEX VERSION 1.134+C:\Users\CFGS.LAB37_PC\Desktop\DAM\AcessoADatos\.metadata\.plugins\org.eclipse.jdt.core
 4170001661.index
 1007639447.index
 3170849665.index
 1216821090.index
 1758832536.index
->>>>>>> 4c153bff8859b09fdc22807f54febe9065305548
 1865797976.index
-1063839704.index
-3170849665.index
-1758832536.index
-1216821090.index
-1007639447.index
-1141539656.index
 2722514636.index
+3803894794.index
