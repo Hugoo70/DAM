@@ -23,15 +23,16 @@ public class Carga extends JPanel {
 
 	private JProgressBar progressBar;
 	private int contador = 0;
-	private Image imagenFondo = requestImage();
+	private Image imagenFondo;
 
-	public Carga() {
+	public Carga(Image fondo) {
+		
+		this.imagenFondo = fondo;
+
 		setLayout(null);
 		progressBar = new JProgressBar(0, 6);
 		progressBar.setVisible(true);
 		progressBar.setBounds(50, 245, 619, 34);
-		progressBar.setBorderPainted(false);
-		progressBar.setStringPainted(true);
 		add(progressBar);
 
 	}
@@ -44,17 +45,7 @@ public class Carga extends JPanel {
 		return progressBar;
 	}
 
-	private Image requestImage() {
-		BufferedImage imagen = null;
-		try {
-			imagen = ImageIO.read(new File("src/img/fondoCarga.jpg"));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return imagen;
-	}
-
+	//Metodo para colocar la imagen como fondo de pantalla
 	@Override
 	public void paintComponent(Graphics g) {
 		g.drawImage(imagenFondo, 0, 0, getWidth(), getHeight(), null);

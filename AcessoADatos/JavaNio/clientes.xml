@@ -6,7 +6,7 @@
 <Direccion>
 <Calle>Calle de la Princesa</Calle>
 <Ciudad>Madrid</Ciudad>
-<Codigo Postal>28020</Codigo Postal>
+<CodigoPostal>28020</CodigoPostal>
 <Pais>España</Pais>
 </Direccion>
 </cliente>

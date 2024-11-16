@@ -5,6 +5,9 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.Timer;
 
+import TXT.LecturaEscritura;
+import TXT.Usuario;
+
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Image;
@@ -15,29 +18,49 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
 import java.io.*;
+import java.util.ArrayList;
 
 public class Mecanografia extends JFrame {
-	// Carga
-	Timer crono;
-	private int contador;
+	//Arrays
+	ArrayList<Usuario> listaUsuarios = new ArrayList<>();
 
+	//Fondo
+	private Image image;
+
+	
 	// Dimension de pantalla
 	private Dimension pantallaCompleta;
 
-	// Jpanels
+
+	// Jpanels y Clases
 	private Login login;
 	private Carga carga;
+	private LecturaEscritura lecturaEscritura;
+	private Dificultad dificultad;
+	private Partida partida;
+
+
+	// Carga
+	Timer crono;
+	private int contador;
+	
+	//Login
+	private Usuario usuarioLogin;
+
 
 	public Mecanografia() {
 
 		setIconImage(Toolkit.getDefaultToolkit().getImage("src/img/logo.png"));
+		image = requestImage("src/img/fondoCarga.jpg");
+		pantallaCompleta = Toolkit. getDefaultToolkit(). getScreenSize();
+
+		lecturaEscritura = new LecturaEscritura();
 		login = new Login();
-		carga = new Carga();
+		carga = new Carga(image);
 
 		login.setVisible(false);
 		carga.setVisible(true);
 
-		// Diseño Pagina de Carga
 		setSize(750, 500);
 		setResizable(false);
 		setUndecorated(true);
@@ -48,7 +71,6 @@ public class Mecanografia extends JFrame {
 		add(carga);
 
 		setVisible(true);
-		// Funcion para confirmar el cierre de la APP
 		preguntarCerrarApp();
 
 	}
@@ -64,7 +86,6 @@ public class Mecanografia extends JFrame {
 		crono.start();
 	}
 
-	// Función para confirmar el cierre de la app
 	public void preguntarCerrarApp() {
 
 		try {
@@ -91,10 +112,12 @@ public class Mecanografia extends JFrame {
 		}
 	}
 
-	void VerificarArchivos(int contador) {
+	public void VerificarArchivos(int contador) {
 		if (contador == 4) {
 
-			//ArchivosTXT();
+			lecturaEscritura.ArchivosTXT();
+			lecturaEscritura.FicheroUsuario("src/TXT/Usuarios.txt");
+			listaUsuarios = lecturaEscritura.getListaUsuarios();
 
 		}
 
@@ -107,7 +130,7 @@ public class Mecanografia extends JFrame {
 			login.setVisible(true);
 			setUndecorated(false);
 
-			//btnLogin();
+			btnLogin();
 
 			setVisible(true);
 			setSize(400, 500);
@@ -116,22 +139,96 @@ public class Mecanografia extends JFrame {
 			add(login);
 		}
 	}
+	
+	
+	public void btnLogin() {
 
-	public void ArchivosTXT() {
+		/*Aqui podemos usar una expresion Lambda ya que la interfaz ActionListener define solo un metodo ActionPerfomed*/
+		login.getBotonLog().addActionListener(e -> {
 
-		File usuarioFile = new File("src/TXT/Usuarios.txt");
-		File estadisticasFile = new File("src/TXT/estadisticas.txt");
-		File textosFiles = new File("src/TXT/textos.txt");
+			//Necesitamos el valueOf ya que el getPassword te devuelve un Array
+			String pass = String.valueOf( login.getPasswordField().getPassword());
+			String name = login.getTextUser().getText();
 
+			for(int i = 0; i<listaUsuarios.size();i++) {
+				//Si el usuario y contraseña son correctos
+				if((pass.equals(listaUsuarios.get(i).getPass()) && (name.equals(listaUsuarios.get(i).getName()) ))) {
+					usuarioLogin = listaUsuarios.get(i);
 
-		if (!(usuarioFile.exists() && estadisticasFile.exists() && textosFiles.exists())) {
+					//Inicio de un nuevo Panel
+					login.setVisible(false);
+					setResizable(false);
+					setLocationRelativeTo(null);
 
-			JOptionPane.showMessageDialog(null, "Error, Fichero no encontrado!", "ERROR 520", 0);
-			System.exit(0);
+					setLocationRelativeTo(null);;
+					setTitle("MECANOGIAFIA");
 
-		}
+					//Añadimos un panel de dificultades
+					dificultad = new Dificultad();
+					add(dificultad);
+					btnDificultades();
+
+				}
+			}
+		});
+
 	}
 	
+	public void btnDificultades() {
+
+		dificultad.getBtnDificultades().addActionListener(e -> {
+			dispose();
+			setSize(pantallaCompleta);
+			setLocationRelativeTo(null);
+			setVisible(true);
+			dificultad.setVisible(false);
+			//image = requestImage("src/img/fondo_principal.jpg");
+
+			//FACIL
+			if(dificultad.getBtnFacil().isSelected()) {
+				JOptionPane.showMessageDialog(null, "Antes de empezar debe saber: \n"
+						+ " 1.- El modo cuenta con 200 caracteres.\n"
+						+ " 2.- Tiene un maximo de 4 minutos, este empezara a contar al pulsar la primera tecla. \n"
+						+ " 3.- Si fallas 5 veces el juego acabara. \n"
+						+ " 4.- Si superas el límite de tiempo o llegas al total de errores, te mostrará una ventana emergente y el juego finalizará. \n"
+						, "Instrucciones del juego", 1);
+				//DICIL
+			}else if(dificultad.getBtnDificil().isSelected()) {
+				JOptionPane.showMessageDialog(null, "Bienvenido, aqui tienes las instrucciones: \n"
+						+ " 1.- El modo cuenta con 1000 caracteres. \n"
+						+ " 2.- Tiene un maximo de 3 minutos, este empezara a contar al pulsar la primera tecla. \n"
+						+ " 3.- Si fallas 3 veces el juego acabara. \n"
+						+ " 4.- Si superas el límite de tiempo o llegas al total de errores, te mostrará una ventana emergente y el juego finalizará. \n"
+						, "Instrucciones del juego", 1);
+			}
+		});
+	}
 	
+	public void dificultades(int dif) {
+		partida = new Partida();
+		add(partida);
+		partida.setVisible(true);
+		//menuOpciones();
+		//botonBack();
+
+		//btnEventoFallo();
+		//btnEventoFelicitaciones();
+		
+	}
+
+	
+	private Image requestImage(String ruta) {
+		BufferedImage  image = null;
+
+		try {
+			//El imageIO necesita el file para mostrar la imagen de pantalla
+			image = ImageIO.read(new File(ruta));
+		}catch (IOException e) {
+			JOptionPane.showInternalMessageDialog(null, "Error, background no localizado", "Imagen no localizada", 0);
+			System.exit(ABORT);
+		}
+
+		return image;
+	}
 
 }
