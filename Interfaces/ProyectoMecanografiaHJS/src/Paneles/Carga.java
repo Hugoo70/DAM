@@ -26,7 +26,7 @@ public class Carga extends JPanel {
 	private Image imagenFondo;
 
 	public Carga(Image fondo) {
-		
+		//Almancena la referencia al img de Mecanografia donde esta la ruta de la imagen que queremos usar
 		this.imagenFondo = fondo;
 
 		setLayout(null);

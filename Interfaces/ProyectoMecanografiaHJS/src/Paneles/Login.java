@@ -40,16 +40,6 @@ public class Login extends JPanel {
 		TextUser.setBounds(185, 184, 107, 24);
 		add(TextUser);
 
-		TextUser.addKeyListener(new KeyAdapter() {
-
-			@Override
-			public void keyTyped(KeyEvent e) {
-				if (TextUser.getText().length() >= 6) {
-					e.consume();
-				}
-			}
-		});
-
 		JLabel lblNewLabel_2 = new JLabel("Contraseña:");
 		lblNewLabel_2.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		lblNewLabel_2.setBounds(65, 284, 88, 24);
@@ -58,16 +48,6 @@ public class Login extends JPanel {
 		passwordField = new JPasswordField();
 		passwordField.setBounds(185, 288, 107, 20);
 		add(passwordField);
-
-		passwordField.addKeyListener(new KeyAdapter() {
-
-			@Override
-			public void keyTyped(KeyEvent e) {
-				if (passwordField.getText().length() >= 6) {
-					e.consume();
-				}
-			}
-		});
 
 		JCheckBox BotonPass = new JCheckBox("");
 		BotonPass.setBounds(297, 287, 97, 23);
