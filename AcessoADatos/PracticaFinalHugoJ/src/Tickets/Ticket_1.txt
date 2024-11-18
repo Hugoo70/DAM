@@ -1,0 +1,7 @@
+Número de Ticket: 1
+12345
+Luis García
+Gasolinera1
+Madrid
+Gasolina 95 (1,95)-------60,00
+Total: 117,00 Euros

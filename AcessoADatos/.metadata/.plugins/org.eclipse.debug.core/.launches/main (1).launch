@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<<<<<<< HEAD
         <listEntry value="/PracticaFinalHugoJ/src/PracticaFinal/Main.java"/>
-=======
-        <listEntry value="/ConversionBBDD/src/cBBDD/Main.java"/>
->>>>>>> dcec04faf3cbf25e69f5f4ce01ee881b73c56972
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
     </listAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-<<<<<<< HEAD
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="PracticaFinal.Main"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="PracticaFinalHugoJ"/>
-=======
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="cBBDD.Main"/>
-    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ConversionBBDD"/>
->>>>>>> dcec04faf3cbf25e69f5f4ce01ee881b73c56972
 </launchConfiguration>

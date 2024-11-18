@@ -60,8 +60,7 @@ public class LecturaEscritura {
 			br.close();
 
 		} catch (IOException e) {
-			JOptionPane.showMessageDialog(null, "ERROR DE LECTURA",
-					"NO SE HAN PODIDO LEER LOS ARCHIVOS DE " + fichero + ", CERRANDO...", 0);
+			JOptionPane.showMessageDialog(null, "NO SE HAN PODIDO LEER LOS ARCHIVOS DE " + fichero ,"ERROR DE LECTURA", 0);
 			System.exit(0);
 		}
 	}
