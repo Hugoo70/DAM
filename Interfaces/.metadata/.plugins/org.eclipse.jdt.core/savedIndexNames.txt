@@ -1,4 +1,21 @@
+<<<<<<< HEAD
 INDEX VERSION 1.134+C:\Users\hugoj\Desktop\git\DAM\Interfaces\.metadata\.plugins\org.eclipse.jdt.core
 3363349498.index
 1865797976.index
 1654568050.index
+=======
+INDEX VERSION 1.134+C:\Users\CFGS.LAB37_PC\Desktop\DAM\Interfaces\.metadata\.plugins\org.eclipse.jdt.core
+2412155758.index
+2342022447.index
+4149054198.index
+2552091858.index
+1864799357.index
+2519080942.index
+3363349498.index
+3822403962.index
+2137718207.index
+3803894794.index
+4199694139.index
+1865797976.index
+1317688307.index
+>>>>>>> cd725bd78bc3284559439ce35b42f1aae4271027
