@@ -6,7 +6,7 @@
 	<item key="TypeHierarchyViewPart.qualifiednames" value="false"/>
 	<item key="TypeHierarchyViewPart.linkeditors" value="false"/>
 	<item key="TypeHierarchyViewPart.orientation" value="3"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\CFGS.LAB37_PC\Downloads"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\CFGS.LAB37_PC\Downloads\mysql-connector-j-9.1.0"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -123,11 +123,19 @@
 	<section name="ClasspathContainerSelectionPage">
 		<item key="index" value="0"/>
 	</section>
+<<<<<<< HEAD
 	<section name="DialogBounds_AddDelegateMethodsDialog">
 		<item key="DIALOG_X_ORIGIN" value="695"/>
 		<item key="DIALOG_Y_ORIGIN" value="159"/>
 		<item key="DIALOG_WIDTH" value="546"/>
 		<item key="DIALOG_HEIGHT" value="554"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+=======
+	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH" value="350"/>
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_HEIGHT" value="306"/>
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+>>>>>>> 6f5a7035ee825ab6fffd506b7935ffdd2d8d8cc1
 	</section>
 </section>

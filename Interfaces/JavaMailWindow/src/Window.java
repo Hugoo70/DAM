@@ -13,6 +13,7 @@ import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Properties;
 
 import javax.swing.JTextField;
@@ -114,11 +115,14 @@ public class Window {
 				JTextField asunto = textField_2;
 				JTextField Body = textField_3;
 				String body = Body.getText();
-				String b = Leer.leerFichero(body);
-
-				EnvioEmail.enviarMail(To.getText(), asunto.getText(), b);
+				//String b = Leer.leerFichero(body);
+				for (int i = 0; i<200;i++){
+					EnvioEmail.enviarMail(To.getText(), asunto.getText(), body);
+					
+				}
+				
 				lblNewLabel_1.setVisible(true);
-				textField_3.setText(b);
+				//textField_3.setText(b);
 
 			}
 		});

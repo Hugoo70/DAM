@@ -1,0 +1,24 @@
+2.1
+1º ¿Dónde has situado el main? 
+El main esta situado en una clase propia como lo pedia las instruciones 
+permitiendo una clara lectura del código por si alguien necesita leerlo,
+le sea mas facil y legible.
+
+2º ¿Cuántas estructuras deberían existir creadas?
+No hay un número fijo que podamos deducir, esto dependera de como el procesador
+escoga que hijo ejecutar antes, variando los datos ya sea creando más de 3 estructuras
+a la vez o destruyendo muchas.
+
+3º ¿Cómo has decidido implementar el paralelismo del RobotExplorador?
+Utilizando Runnable y Thread para crear los hilos.
+
+
+
+2.2
+1º ¿Cuántas estructuras deberían existir creadas?
+He tenido como resultado al final: 5,9,5,2.
+El restulado es variable pero al estar sincronizado, los procesos se respetan entre ellos.
+
+2º ¿Qué mecanismo de sincronización has utilizado?
+Para la sincronización he optado por usar un synchsynchronized en la función
+construir() y destruir()

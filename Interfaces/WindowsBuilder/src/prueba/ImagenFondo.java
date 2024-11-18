@@ -1,14 +1,17 @@
 package prueba;
 
-import java.awt.*;
+import java.awt.Component;
+import java.awt.EventQueue;
+import java.awt.Graphics;
+import java.awt.Image;
 import java.awt.image.BufferedImage;
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
 
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
+import javax.swing.WindowConstants;
 
 public class ImagenFondo {
 
@@ -19,6 +22,7 @@ public class ImagenFondo {
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
+			@Override
 			public void run() {
 				try {
 					ImagenFondo window = new ImagenFondo();
@@ -43,7 +47,7 @@ public class ImagenFondo {
 	private void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 300, 211);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		frame.getContentPane().add(createContentPanelConFondo());
 		/*
 		JLabel lblNewLabel = new JLabel("");

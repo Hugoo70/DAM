@@ -3,6 +3,7 @@ package prueba;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
+import javax.swing.WindowConstants;
 
 public class a {
 
@@ -13,6 +14,7 @@ public class a {
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
+			@Override
 			public void run() {
 				try {
 					a window = new a();
@@ -37,7 +39,7 @@ public class a {
 	private void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 	}
 
 }
