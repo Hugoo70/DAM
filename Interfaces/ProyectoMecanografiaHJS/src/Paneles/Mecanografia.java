@@ -131,7 +131,7 @@ public class Mecanografia extends JFrame {
 		if (contador == 4) {
 
 			// Verificar archivos en general
-			lecturaEscritura.ArchivosTXT();
+			//lecturaEscritura.ArchivosTXT();
 
 			// Verificar .txt de usuarios
 			lecturaEscritura.FicheroUsuario("src/TXT/Usuarios.txt");
@@ -146,15 +146,15 @@ public class Mecanografia extends JFrame {
 			estadisticas = lecturaEscritura.getListaEstadisticas();
 
 			/*
-			 * Una comprobación rápida para ver si los metodos se guardan bien en los ARRAY's
-			 * 
-			 * Comprobación de correcta lectura
-			 * 
-			 * for (Usuario u : usuarios) { System.out.println(u); }
-			 * 
-			 * for (String t : textos) { System.out.println(t); }
-			 * 
-			 * for (Estadisticas e : estadisticas) { System.out.println(e); }
+			  Una comprobación rápida para ver si los metodos se guardan bien en los ARRAY's
+			 
+			  Comprobación de correcta lectura
+			  
+			  for (Usuario u : usuarios) { System.out.println(u); }
+			  
+			  for (String t : textos) { System.out.println(t); }
+			  
+			  for (Estadisticas e : estadisticas) { System.out.println(e); }
 			 */
 
 		}
@@ -279,6 +279,7 @@ public class Mecanografia extends JFrame {
 
 	}
 	// Método para poner una imagen de fondo 
+	
 	private Image requestImage(String ruta) {
 		BufferedImage image = null;
 

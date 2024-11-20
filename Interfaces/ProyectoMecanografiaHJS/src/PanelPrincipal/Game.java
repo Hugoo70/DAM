@@ -1,13 +1,11 @@
 package PanelPrincipal;
 
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Toolkit;
+import java.awt.*;
+import java.awt.event.*;
 import java.util.ArrayList;
-import javax.swing.JPanel;
-import javax.swing.JTextArea;
-import javax.swing.JScrollPane;
-import javax.swing.JOptionPane;
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 
 import TXT.Estadisticas;
 import TXT.Usuario;
@@ -15,16 +13,8 @@ import TXT.Usuario;
 public class Game extends JPanel {
     private int dif;
     private ArrayList<String> textos;
-    private JTextArea TextoLeer; // Cambiado a JTextArea
-    private JTextArea TextoEscribir; // Cambiado a JTextArea
-
-    private static final int FACIL = 0;
-    private static final int DIFICIL = 1;
-
-    private static final int TEMPORIZADORF = 3;
-    private static final int TEMPORIZADORD = 5;
-    private static final int MAX_ERRORESF = 5;
-    private static final int MAX_ERRORESD = 3;
+    private Texto textoInteractivo;
+    private Teclado tecladoBotones;
 
     public Game(int dif, ArrayList<String> textos, ArrayList<Estadisticas> estadisticas, ArrayList<Usuario> usuarios, Usuario usuarioLogin) {
         this.dif = dif;
@@ -34,51 +24,67 @@ public class Game extends JPanel {
         Dimension PantallaCompleta = Toolkit.getDefaultToolkit().getScreenSize();
         setSize(PantallaCompleta);
 
-        // Campo para mostrar el texto a escribir
-        TextoLeer = new JTextArea();
-        TextoLeer.setFont(new Font("Tahoma", Font.PLAIN, 18));
-        TextoLeer.setEditable(false);
-        TextoLeer.setLineWrap(true); // Envolver texto en varias líneas
-        TextoLeer.setWrapStyleWord(true); // Ajustar envoltura por palabra
-
-        JScrollPane scrollLeer = new JScrollPane(TextoLeer);
+        textoInteractivo = new Texto();
+        JScrollPane scrollLeer = new JScrollPane(textoInteractivo.getTextoLeer());
         scrollLeer.setBounds(40, 10, 1820, 275);
         add(scrollLeer);
 
-        // Campo para el texto que el usuario escribirá
-        TextoEscribir = new JTextArea();
-        TextoEscribir.setFont(new Font("Tahoma", Font.PLAIN, 18));
-        TextoEscribir.setLineWrap(true); // Envolver texto en varias líneas
-        TextoEscribir.setWrapStyleWord(true); // Ajustar envoltura por palabra
-
-        JScrollPane scrollEscribir = new JScrollPane(TextoEscribir);
+        JScrollPane scrollEscribir = new JScrollPane(textoInteractivo.getTextoEscribir());
         scrollEscribir.setBounds(40, 327, 1820, 275);
         add(scrollEscribir);
 
+        tecladoBotones = new Teclado();
+        tecladoBotones.setBounds(40, 654, 1308, 332);
+        add(tecladoBotones);
+
         imprimirTextoDificultad();
+
+        // Agregar DocumentListener
+        textoInteractivo.getTextoEscribir().getDocument().addDocumentListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+            	ColorCaracter();
+            }
+
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+            	ColorCaracter();
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+            	ColorCaracter();
+            }
+        });
+
+        // Bloquear retroceso
+        textoInteractivo.getTextoEscribir().addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_BACK_SPACE) {
+                    JOptionPane.showMessageDialog(null, "¡No puedes hacer retroceso!", "Error", JOptionPane.ERROR_MESSAGE);
+                    e.consume();
+                }
+            }
+        });
     }
 
-    public void imprimirTextoDificultad() {
-        if (textos == null) {
-            JOptionPane.showMessageDialog(null, "Error: Texto no disponible .", "Error", JOptionPane.ERROR_MESSAGE);
+    private void imprimirTextoDificultad() {
+        if (textos == null || textos.isEmpty()) {
+            JOptionPane.showMessageDialog(null, "Error: Texto no disponible.", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
         }
+        textoInteractivo.setTextoReferencia(textos.get(dif));
+    }
 
-        TextoLeer.setText(textos.get(dif)); // Muestra el texto según la dificultad
-
-        if (dif == FACIL) {
-            comprobarTexto(FACIL, TEMPORIZADORF, MAX_ERRORESF);
-            contadorDeInicio(FACIL, TEMPORIZADORF);
-        } else if (dif == DIFICIL) {
-            comprobarTexto(DIFICIL, TEMPORIZADORD, MAX_ERRORESD);
-            contadorDeInicio(DIFICIL, TEMPORIZADORD);
+    private void ColorCaracter() {
+        String textoReferencia = textos.get(dif);
+        textoInteractivo.actualizarColores(textoReferencia);
+        String textoUsuario = textoInteractivo.getTextoEscribir().getText();
+        if (!textoUsuario.isEmpty()) {
+            tecladoBotones.resaltarTecla(String.valueOf(textoUsuario.charAt(textoUsuario.length() - 1)));
+        } else {
+            tecladoBotones.resetearTeclas();
         }
-    }
-
-    private void comprobarTexto(int nivel, int temporizador, int maxErrores) {
-        // Lógica para comprobar texto según dificultad
-    }
-
-    private void contadorDeInicio(int nivel, int temporizador) {
-        // Lógica para iniciar el temporizador
     }
 }
