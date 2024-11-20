@@ -29,7 +29,6 @@ public class Game extends JPanel {
         scrollLeer.setBounds(40, 10, 1820, 275);
         add(scrollLeer);
 
-<<<<<<< HEAD
         JScrollPane scrollEscribir = new JScrollPane(textoInteractivo.getTextoEscribir());
         scrollEscribir.setBounds(40, 327, 1820, 275);
         add(scrollEscribir);
@@ -37,13 +36,6 @@ public class Game extends JPanel {
         tecladoBotones = new Teclado();
         tecladoBotones.setBounds(40, 654, 1308, 332);
         add(tecladoBotones);
-=======
-        // Campo para el texto que el usuario escribirá
-        TextoEscribir = new JTextArea();
-        TextoEscribir.setFont(new Font("Tahoma", Font.PLAIN, 18));
-        TextoEscribir.setLineWrap(true); // Envolver texto en varias líneas
-        TextoEscribir.setWrapStyleWord(true); // Ajustar envoltura por palabra
->>>>>>> cd2da3f51e0c655c2c976b32bf2c5511345eb526
 
         imprimirTextoDificultad();
 
