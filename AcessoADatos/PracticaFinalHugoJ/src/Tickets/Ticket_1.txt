@@ -3,5 +3,5 @@ Número de Ticket: 1
 Luis García
 Gasolinera1
 Madrid
-Gasolina 95 (1,95)-------60,00
-Total: 117,00 Euros
+Gasolina 95 (1,95)-------12,00
+Total: 23,40 Euros

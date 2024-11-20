@@ -5,20 +5,46 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
+import org.xml.sax.SAXException;
+
 public class Main {
     static Scanner teclado = new Scanner(System.in);
 
     // Arrray de clientes y gasolineras
-    private static List<Gasolinera> gasolineras = new ArrayList<>();
-    private static List<Cliente> clientes = new ArrayList<>();
+  private static ArrayList<Gasolinera> gasolineras = new ArrayList<>();
+    private static ArrayList<Cliente> clientes = new ArrayList<>();
 
     public static void main(String[] args) {
-        clientes.add(new Cliente("12345", "Luis García", 0));
-        clientes.add(new Cliente("67890", "Ana Pérez", 0));
-
-        gasolineras.add(new Gasolinera("Gasolinera1", "Madrid", 1000, 800, 1.95, 1.55));
-        gasolineras.add(new Gasolinera("Gasolinera2", "Barcelona", 1500, 1200, 1.70, 1.80));
-        gasolineras.add(new Gasolinera("Gasolinera3", "Madrid", 2000, 1800, 1.68, 1.78));
+        
+    	// Leer los datos del bin
+        String FileBin = "gasolineras.bin";
+        LeerCrearGasolineraBin.CrearFicheroBin(FileBin);
+        LeerCrearGasolineraBin.LeerFicheroBin(FileBin);
+        
+	 	String fichero = "src\\clientes.xml";
+        String carpeta = "src\\fichasClientes";
+        
+        // Leer los datos del XML
+        try {
+			CrearUsuarioFichero.XML(fichero, carpeta);
+		} catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        
+       clientes = CrearUsuarioFichero.clientes;
+       gasolineras = LeerCrearGasolineraBin.gasolineras;
+       
+       
+      /*
+       * Prueba del Array
+       *  for (Gasolinera G : gasolineras) {
+		System.out.println(G);
+			}
+       */
 
         mostrarMenuPrincipal();
     }
@@ -79,6 +105,7 @@ public class Main {
             break;
         default:
             System.out.println("Opción no válida.");
+
         }
     }
 
