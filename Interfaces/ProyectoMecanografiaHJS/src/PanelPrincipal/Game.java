@@ -51,10 +51,6 @@ public class Game extends JPanel {
         TextoEscribir.setLineWrap(true); // Envolver texto en varias líneas
         TextoEscribir.setWrapStyleWord(true); // Ajustar envoltura por palabra
 
-        JScrollPane scrollEscribir = new JScrollPane(TextoEscribir);
-        scrollEscribir.setBounds(40, 327, 1820, 275);
-        add(scrollEscribir);
-
         imprimirTextoDificultad();
     }
 

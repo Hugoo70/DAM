@@ -7,8 +7,9 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
 public class LeerCrearGasolineraBin {
+    public static ArrayList<Gasolinera> gasolineras = new ArrayList<>();
+
 	public static void CrearFicheroBin(String FileBin) {
-	       ArrayList<Gasolinera> gasolineras = new ArrayList<>();
 	       			gasolineras.add(new Gasolinera("Gasolinera1", "Madrid", 1000, 800, 1.95, 1.55)); 
 	       			gasolineras.add(new Gasolinera("Gasolinera2", "Barcelona", 1500, 1200, 1.70, 1.80));
 	       			gasolineras.add(new Gasolinera("Gasolinera3", "Oviedo", 2000, 1800, 1.68, 1.78));
@@ -26,9 +27,9 @@ public class LeerCrearGasolineraBin {
 	        ArrayList<Gasolinera> gasolineras = (ArrayList<Gasolinera>) ois.readObject();
 
 	        System.out.println("Datos de las gasolineras cargadas:");
-	        for (Gasolinera gas : gasolineras) {
+	       /* for (Gasolinera gas : gasolineras) {
 	            System.out.println(gas);
-	        }
+	        }*/
 	    } catch (Exception e) {
 	        e.printStackTrace();
 	    }
@@ -38,7 +39,7 @@ public class LeerCrearGasolineraBin {
 
 
     public static void main(String[] args) {
-        String FileBin = "src\\gasolineras.bin";
+        String FileBin = "gasolineras.bin";
         CrearFicheroBin(FileBin);
         LeerFicheroBin(FileBin);
 

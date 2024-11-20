@@ -1,39 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <listEntry value="/ExamenSimulacro/src/Mio/Main.java"/>
-=======
-        <listEntry value="/ExamenSimulacro/src/Ej1/Main.java"/>
->>>>>>> origin
-=======
-        <listEntry value="/PracticaFinalHugoJ/src/PracticaFinal/Main.java"/>
-=======
         <listEntry value="/ConversionBBDD/src/cBBDD/Main.java"/>
->>>>>>> dcec04faf3cbf25e69f5f4ce01ee881b73c56972
->>>>>>> 6f5a7035ee825ab6fffd506b7935ffdd2d8d8cc1
-=======
-        <listEntry value="/PracticaFinalHugoJ/src/PracticaFinal/Main.java"/>
->>>>>>> cd725bd78bc3284559439ce35b42f1aae4271027
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
     </listAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Mio.Main"/>
-=======
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Ej1.Main"/>
->>>>>>> origin
-=======
-=======
->>>>>>> cd725bd78bc3284559439ce35b42f1aae4271027
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="PracticaFinal.Main"/>
->>>>>>> 6f5a7035ee825ab6fffd506b7935ffdd2d8d8cc1
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="cBBDD.Main"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="PracticaFinalHugoJ"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ConversionBBDD"/>
 </launchConfiguration>
