@@ -2,7 +2,6 @@ package PanelPrincipal;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 
 public class Teclado extends JPanel {
     private JButton[] teclas;
@@ -13,7 +12,9 @@ public class Teclado extends JPanel {
     };
 
     public Teclado() {
-        setLayout(new GridLayout(3, 10, 5, 5)); // Tres filas
+        // Configurar un diseño de cuadrícula adaptable para las teclas
+        setLayout(new GridLayout(3, 10, 10, 10)); // 3 filas, 10 columnas, con margen de 10 píxeles
+
         teclas = new JButton[caracteres.length];
 
         for (int i = 0; i < caracteres.length; i++) {
@@ -27,21 +28,23 @@ public class Teclado extends JPanel {
         }
     }
 
-    // Resaltar la tecla correspondiente
+    // Resaltar la tecla correspondiente al presionar
     public void resaltarTecla(String etiqueta) {
         for (JButton tecla : teclas) {
-            if (tecla.getText().equalsIgnoreCase(etiqueta)) {
+            if (tecla.getText().equalsIgnoreCase(etiqueta) || 
+                (etiqueta.equals(" ") && tecla.getText().equalsIgnoreCase("SPACE"))) {
                 tecla.setBackground(Color.BLUE);
-            } else {
-                tecla.setBackground(Color.LIGHT_GRAY);
             }
         }
     }
 
-    // Reiniciar colores
-    public void resetearTeclas() {
+    // Reiniciar colores al soltar
+    public void liberarTecla(String etiqueta) {
         for (JButton tecla : teclas) {
-            tecla.setBackground(Color.LIGHT_GRAY);
+            if (tecla.getText().equalsIgnoreCase(etiqueta) || 
+                (etiqueta.equals(" ") && tecla.getText().equalsIgnoreCase("SPACE"))) {
+                tecla.setBackground(Color.LIGHT_GRAY);
+            }
         }
     }
 }

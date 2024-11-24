@@ -14,6 +14,13 @@ public class Usuario {
 	}
 
 
+	public Usuario(String name) {
+		// TODO Auto-generated constructor stub
+		this.name = name;
+
+	}
+
+
 	public String getId() {
 		return id;
 	}

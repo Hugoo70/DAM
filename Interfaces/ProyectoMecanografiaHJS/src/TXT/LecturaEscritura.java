@@ -110,4 +110,26 @@ public class LecturaEscritura {
 			System.exit(0);
 		}
 	}
+	
+	public void guardarEstadistica(String fichero, Estadisticas nuevaEstadistica) {
+	    try (FileWriter fw = new FileWriter(fichero, true);
+	         BufferedWriter bw = new BufferedWriter(fw);
+	         PrintWriter out = new PrintWriter(bw)) {
+
+	        // Escribir la estadística en formato CSV
+	        out.println(
+	            nuevaEstadistica.getUser() + ";" +
+	            nuevaEstadistica.getDif() + ";" +
+	            nuevaEstadistica.getTiempoTranscurrido() + ";" +
+	            nuevaEstadistica.getPpm() + ";" +
+	            nuevaEstadistica.getErrores()+ ";"
+	        );
+
+	    } catch (IOException e) {
+	        JOptionPane.showMessageDialog(null, 
+	            "Error al guardar las estadísticas", 
+	            "Error", JOptionPane.ERROR_MESSAGE);
+	    }
+	}
+
 }
