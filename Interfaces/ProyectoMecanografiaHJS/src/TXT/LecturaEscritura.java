@@ -45,26 +45,30 @@ public class LecturaEscritura {
 	}
 
 	public void FicheroUsuario(String fichero) {
-		try {
+	    try {
+	        FileReader fr = new FileReader(fichero);
+	        BufferedReader br = new BufferedReader(fr);
+	        String leerDatos;
 
-			FileReader fr = new FileReader(fichero);
-			BufferedReader br = new BufferedReader(fr);
-			String leerDatos;
+	        while ((leerDatos = br.readLine()) != null) {
+	            listaUsuarios.add(
+	                new Usuario(
+	                    (leerDatos.split(";")[0]), 
+	                    (leerDatos.split(";")[1]), 
+	                    (leerDatos.split(";")[2]), 
+	                    (leerDatos.split(";")[3]))
+	            );
+	        }
 
-			while ((leerDatos = br.readLine()) != null) {
-				listaUsuarios.add(
-						new Usuario((leerDatos.split(";")[0]), (leerDatos.split(";")[1]), (leerDatos.split(";")[2])));
-				leerDatos = br.readLine();
-			}
+	        br.close();
 
-			br.close();
-
-		} catch (IOException e) {
-			JOptionPane.showMessageDialog(null, "ERROR DE LECTURA",
-					"NO SE HAN PODIDO LEER LOS ARCHIVOS DE " + fichero + ", CERRANDO...", 0);
-			System.exit(0);
-		}
+	    } catch (IOException e) {
+	        JOptionPane.showMessageDialog(null, "ERROR DE LECTURA",
+	                "NO SE HAN PODIDO LEER LOS ARCHIVOS DE " + fichero + ", CERRANDO...", 0);
+	        System.exit(0);
+	    }
 	}
+
 
 	public void FicheroTexto(String fichero) {
 		try {
@@ -76,7 +80,6 @@ public class LecturaEscritura {
 
 				textos.add(lineaTexto.split(";")[0]);
 				textos.add(lineaTexto.split(";")[1]);
-				lineaTexto = br.readLine();
 			}
 			br.close();
 		} catch (IOException e) {
@@ -100,7 +103,6 @@ public class LecturaEscritura {
 						Integer.parseInt(leerStats.split(";")[2]),
 						Integer.parseInt(leerStats.split(";")[3]), 
 						Integer.parseInt(leerStats.split(";")[4])));
-				leerStats = br.readLine();
 			}
 
 			br.close();

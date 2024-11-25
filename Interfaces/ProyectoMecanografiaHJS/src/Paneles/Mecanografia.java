@@ -5,6 +5,10 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.Timer;
 
+import Admin.AdminPanel;
+import Admin.CambiarLecciones;
+import Admin.EnviarEmail;
+import Admin.GestionUsuarios;
 import PanelPrincipal.Game;
 import TXT.Estadisticas;
 import TXT.LecturaEscritura;
@@ -149,13 +153,13 @@ public class Mecanografia extends JFrame {
 			  Una comprobación rápida para ver si los metodos se guardan bien en los ARRAY's
 			 
 			  Comprobación de correcta lectura
-			  
+			  */
 			  for (Usuario u : usuarios) { System.out.println(u); }
 			  
 			  for (String t : textos) { System.out.println(t); }
 			  
 			  for (Estadisticas e : estadisticas) { System.out.println(e); }
-			 */
+			 
 
 		}
 		// Si todo esta bien, acabara el contador y saltara al Panel del Login
@@ -205,16 +209,24 @@ public class Mecanografia extends JFrame {
 		return tieneMayuscula && tieneMinuscula && tieneNumero;
 	}
 	// Comprobación de caracteres y si esta bien pasa al Panel de dificultades
+	public void mostrarPanel(Component panel) {
+	    getContentPane().removeAll();  // Eliminar todos los componentes actuales
+	    getContentPane().add(panel);   // Agregar el nuevo panel
+	    revalidate();                  // Validar los cambios
+	    repaint();                     // Repintar la ventana
+	}
+
 	public void btnLogin() {
 		login.getBotonLog().addActionListener(e -> {
 			String pass = String.valueOf(login.getPasswordField().getPassword());
 			String name = login.getTextUser().getText();
 			for (Usuario usuario : usuarios) {
-				if (!validarCredenciales(name, pass)) {
+				if (!validarCredenciales(name, pass) || !(name.equals(usuario.getName()) && pass.equals(usuario.getPass()))) {
 					JOptionPane.showMessageDialog(null,
-							"Usuario o contraseña inválidos (mínimo 6 caracteres, incluir mayúsculas, minúsculas y números)",
+							"Usuario o contraseña inválidos (Recuerde: mínimo 6 caracteres, incluir mayúsculas, minúsculas y números)",
 							"LOG-IN", JOptionPane.WARNING_MESSAGE);
 				}
+
 				if (name.equals(usuario.getName()) && pass.equals(usuario.getPass())) {
 					usuarioLogin = usuario;
 
@@ -228,6 +240,30 @@ public class Mecanografia extends JFrame {
 					add(dificultad);
 					btnDificultades();
 				}
+				
+				if (name.equals("a") && pass.equals("a")) {
+				    // Mostrar panel de administrador
+				    AdminPanel adminPanel = new AdminPanel();
+				    adminPanel.getBtnGestionUsuarios().addActionListener(e1 -> {
+				        GestionUsuarios gestionUsuarios = new GestionUsuarios();
+				        mostrarPanel(gestionUsuarios);
+				    });
+				    adminPanel.getBtnCambiarLecciones().addActionListener(e3 -> {
+				        CambiarLecciones cambiarLecciones = new CambiarLecciones();
+				        mostrarPanel(cambiarLecciones);
+				    });
+				    adminPanel.getBtnEnviarEmail().addActionListener(e4 -> {
+				    	
+				    });
+				    adminPanel.getBtnVolverLogin().addActionListener(e2 -> {
+				        mostrarPanel(login); // Regresar al panel de Login
+				        login.setVisible(true); // Asegurarse de que esté visible
+				    });
+
+				    mostrarPanel(adminPanel);
+				}
+
+
 			}
 		});
 	}

@@ -4,20 +4,15 @@ public class Usuario {
 	private String id;
 	private String name;
 	private String pass;
+	private String mail;
 	
 	
-	public Usuario(String string, String name, String pass) {
+	public Usuario(String string, String name, String pass, String mail) {
 		//super();
 		this.id = string;
 		this.name = name;
 		this.pass = pass;
-	}
-
-
-	public Usuario(String name) {
-		// TODO Auto-generated constructor stub
-		this.name = name;
-
+		this.mail = mail;
 	}
 
 
@@ -51,11 +46,23 @@ public class Usuario {
 	}
 
 
+	public String getMail() {
+		return mail;
+	}
+
+
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
+
+
 	@Override
 	public String toString() {
-		return "Usuario [id=" + id + ", name=" + name + ", pass=" + pass + "]";
+		return "Usuario [id=" + id + ", name=" + name + ", pass=" + pass + ", mail=" + mail + "]";
 	}
-	
+
+
+
 	
 	
 	

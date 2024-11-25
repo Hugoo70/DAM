@@ -127,23 +127,13 @@ public class Game extends JPanel {
 
 	private void verificarCondiciones() {
 		String textoUsuario = textoInteractivo.getTextoEscribir().getText();
-		String textoReferencia = textos.get(dif);
+		String textoReferencia = textoInteractivo.getTextoLeer().getText();
+
 		int errores = infoPanel.getErrores();
 		long tiempoTranscurrido = (System.currentTimeMillis() - tiempoInicio) / 1000; // Segundos
 
-		int limiteErrores;
-		if (dif == 0) {
-			limiteErrores = 5; // Fácil: 5 errores
-		} else {
-			limiteErrores = 3; // Difícil: 3 errores
-		}
-
-		int limiteTiempo;
-		if (dif == 0) {
-			limiteTiempo = 240; // Fácil: 240 segundos
-		} else {
-			limiteTiempo = 180; // Difícil: 180 segundos
-		}
+		int limiteErrores = (dif == 0) ? 5 : 3; // Fácil: 5 errores, Difícil: 3 errores
+		int limiteTiempo = (dif == 0) ? 240 : 180; // Fácil: 240 segundos, Difícil: 180 segundos
 
 		// Condición de fallo
 		if (errores >= limiteErrores || tiempoTranscurrido >= limiteTiempo) {
@@ -152,76 +142,82 @@ public class Game extends JPanel {
 		}
 
 		// Condición de éxito
-		if (textoUsuario.equals(textoReferencia)) {
+		if ((textoUsuario.length() == textoReferencia.length()) && (errores < limiteErrores || tiempoTranscurrido < limiteTiempo)) {
 			mostrarMensajeExito(tiempoTranscurrido, errores);
 		}
 	}
 
 	private void mostrarMensajeExito(long tiempoTranscurrido, int errores) {
-	    String mensaje = String.format(
-	        "¡Enhorabuena, has completado el texto correctamente!\nTiempo transcurrido: %d segundos\nErrores: %d",
-	        tiempoTranscurrido, errores
-	    );
+	    String mensaje = "¡Enhorabuena, has completado el texto correctamente!\n" 
+	                    + "Tiempo transcurrido: " + tiempoTranscurrido + " segundos\n" 
+	                    + "Errores: " + errores;
 
-	    JOptionPane.showMessageDialog(
-	        null,
-	        mensaje,
-	        "¡Éxito!",
-	        JOptionPane.INFORMATION_MESSAGE
-	    );
+	    JOptionPane.showMessageDialog(null, mensaje, "¡Éxito!", JOptionPane.INFORMATION_MESSAGE);
 
 	    // Crear la estadística del usuario actual
 	    int ppm = (int) ((infoPanel.getPulsaciones() / (double) tiempoTranscurrido) * 60);
 	    Estadisticas nuevaEstadistica = new Estadisticas(
-	        usuarioLogin.getName(), // Usuario actual
-	        dif,                        // Dificultad
-	        (int) tiempoTranscurrido,   // Tiempo en segundos
-	        ppm,                        // Pulsaciones por minuto
-	        errores                     // Número de errores
+	            usuarioLogin.getId(), // Id usuario actual
+	            dif, // Dificultad
+	            (int) tiempoTranscurrido, // Tiempo en segundos
+	            ppm, // Pulsaciones por minuto
+	            errores // Número de errores
 	    );
 
 	    // Guardar las estadísticas en el archivo
 	    LecturaEscritura le = new LecturaEscritura();
 	    le.guardarEstadistica("src/TXT/estadisticas.txt", nuevaEstadistica);
 
+	    // Enviar correo con las nuevas estadísticas
+	    String email = usuarioLogin.getMail(); // Asegúrate de que el objeto Usuario tiene un campo de email
+	    String asunto = "¡Mejoras en tus estadísticas de juego!";
+	    String cuerpo = "Hola " + usuarioLogin.getName() + ",\n\n"
+	                  + "¡Has mejorado tus estadísticas!\n"
+	                  + "Aquí tienes los detalles de tu última partida:\n\n"
+	                  + "Tiempo transcurrido: " + tiempoTranscurrido + " segundos\n"
+	                  + "Errores: " + errores + "\n"
+	                  + "Pulsaciones por minuto (PPM): " + ppm + "\n\n"
+	                  + "¡Sigue practicando para mejorar aún más!\n\n"
+	                  + "Saludos,\nEquipo del Juego";
+
+	    Mail.enviarMail(email, asunto, cuerpo);
+
 	    // Preguntar si el usuario quiere reiniciar o salir
-	    int opcion = JOptionPane.showConfirmDialog(
-	        null,
-	        "¿Quieres intentarlo de nuevo?",
-	        "Reiniciar",
-	        JOptionPane.YES_NO_OPTION
-	    );
+	    int opcion = JOptionPane.showConfirmDialog(null, "¿Quieres intentarlo de nuevo?", "Reiniciar",
+	            JOptionPane.YES_NO_OPTION);
 
 	    if (opcion == JOptionPane.YES_OPTION) {
 	        reiniciarJuego();
 	    } else {
-	        System.exit(0); // Salir del programa
+	        System.exit(0);
 	    }
 	}
 
 
 	private void mostrarMensajeFallo(int errores, long tiempoTranscurrido) {
-		String mensaje = "Has fallado. \nTiempo transcurrido: " + tiempoTranscurrido + " segundos\n"
-				+ "Errores: " + errores + "\n"
-				+ "¿Deseas intentar de nuevo o salir?";
+		String mensaje = "Has fallado. \nTiempo transcurrido: " + tiempoTranscurrido + " segundos\n" + "Errores: "
+				+ errores + "\n" + "¿Deseas intentar de nuevo o salir?";
 
 		int opcion = JOptionPane.showConfirmDialog(null, mensaje, "Juego terminado", JOptionPane.YES_NO_OPTION,
 				JOptionPane.WARNING_MESSAGE);
 
 		if (opcion == JOptionPane.YES_OPTION) {
-			reiniciarJuego(); // Reinicia el juego si elige "Sí"
+			reiniciarJuego();
 		} else {
-			System.exit(0); // Cierra el juego si elige "No"
+			System.exit(0);
 		}
 	}
 
 	private void reiniciarJuego() {
-		// Asegura que los cambios se ejecuten fuera del listener
-		SwingUtilities.invokeLater(() -> {
-			textoInteractivo.getTextoEscribir().setText("");
-			infoPanel.reiniciar();
-			tiempoIniciado = false;
-		});
+	    SwingUtilities.invokeLater(() -> {
+	        textoInteractivo.getTextoEscribir().setText(""); // Limpiar el texto ingresado
+	        infoPanel.reiniciar(); // Reiniciar panel de información
+	        tecladoBotones.reiniciarTeclas(); // Reiniciar las teclas
+	        tiempoIniciado = false; // Reiniciar el temporizador
+	    });
 	}
+	
+	
+
 
 }
