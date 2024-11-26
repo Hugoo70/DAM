@@ -48,7 +48,7 @@ public class Info extends JPanel {
 		return errores;
 	}
 
-	public void registrarPulsacion(boolean esCorrecta) {
+    public void registrarPulsacion(boolean esCorrecta) {
         if (!timerStarted) {
             startTime = System.currentTimeMillis();
             timerStarted = true;
@@ -64,6 +64,7 @@ public class Info extends JPanel {
 
         actualizarPPM();
     }
+
 
     private void actualizarPPM() {
         long tiempoTranscurrido = (System.currentTimeMillis() - startTime) / 1000; // en segundos
