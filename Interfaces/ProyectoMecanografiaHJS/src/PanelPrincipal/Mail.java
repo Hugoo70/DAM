@@ -17,9 +17,7 @@ public class Mail {
 		final String fromEmail = "hugojimenezsoler05@gmail.com"; // Email de salida
 		final String password = "lcfj sywz crxn uctf"; // contraseña del email de salida
 		final String toEmail = Email; // Email destinatario
-		
-		System.out.println("Configurando datos conexión SSL");
-		
+				
 		Properties props = new Properties();
 		props.put("mail.smtp.host", "smtp.gmail.com"); // SMTP de gmail en este caso
 		props.put("mail.smtp.socketFactory.port", "465"); // Puerta SSL
@@ -33,15 +31,7 @@ public class Mail {
 			}
 		};
 		Session session = Session.getDefaultInstance(props, auth); // Crea una sesión con todas las propiedades y el "Login"
-		System.out.println("Sesión creada");
-		
-		/*
-		 * Llamada al método sendEmail con todos los datos configurados
-		 * session
-		 * toEmail
-		 * subject
-		 * body
-		 */
+
 		sendEmail(session, toEmail, asunto, body);
 		}
 
@@ -58,11 +48,15 @@ public class Mail {
 			msg.setSubject(subject, "UTF-8");
 			msg.setText(body, "UTF-8");
 			msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(toEmail, false));
-			JOptionPane.showConfirmDialog(null, "Eviando correo...", "Espere",
-		            JOptionPane.YES_NO_OPTION);
+	        JOptionPane.showMessageDialog(null,
+	                "El correo se esta enviando...",
+	                "Procesando envio...",
+	                JOptionPane.INFORMATION_MESSAGE);
 			Transport.send(msg);
-			JOptionPane.showConfirmDialog(null, "Corre mandado", "ok",
-		            JOptionPane.YES_NO_OPTION);
+	        JOptionPane.showMessageDialog(null,
+	                "El correo se ha enviado correctamente a: " + toEmail,
+	                "Correo enviado!",
+	                JOptionPane.INFORMATION_MESSAGE);
 			
 		} catch (Exception e) {
 			e.printStackTrace();

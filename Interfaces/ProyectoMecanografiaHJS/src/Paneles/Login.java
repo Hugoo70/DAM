@@ -65,13 +65,13 @@ public class Login extends JPanel {
 				}
 
 				if (!BotonPass.isSelected()) {
-					passwordField.setEchoChar('\u2022');
+					passwordField.setEchoChar('*');
 				}
 			}
 		});
 
 	}
-
+	
 	public JButton getBotonLog() {
 		return BotonLog;
 	}
@@ -95,5 +95,5 @@ public class Login extends JPanel {
 	public void setPasswordField(JPasswordField passwordField) {
 		this.passwordField = passwordField;
 	}
-
+	
 }

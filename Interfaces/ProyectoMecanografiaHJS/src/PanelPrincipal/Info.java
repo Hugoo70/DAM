@@ -44,9 +44,16 @@ public class Info extends JPanel {
     public int getPulsaciones() {
         return pulsaciones;
     }
+    public void setErrores(int errores) {
+        this.errores = errores;
+        lblErrores.setText("Errores: " + errores); // Actualizar etiqueta de errores
+    }
+
     public int getErrores() {
-		return errores;
-	}
+        return errores;
+    }
+
+    
 
     public void registrarPulsacion(boolean esCorrecta) {
         if (!timerStarted) {
@@ -58,12 +65,14 @@ public class Info extends JPanel {
         pulsaciones++;
 
         if (!esCorrecta) {
-            errores++;
-            lblErrores.setText("Errores: " + errores);
+            errores++;  // Esto incrementa el contador de errores
+            lblErrores.setText("Errores: " + errores);  // Actualiza el contador en la interfaz
         }
 
         actualizarPPM();
     }
+
+
 
 
     private void actualizarPPM() {

@@ -1,7 +1,14 @@
+
 package Admin;
 
 import javax.swing.*;
+
+import Paneles.Login;
+
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import TXT.LecturaEscritura;
 
 public class AdminPanel extends JPanel {
     private JButton btnGestionUsuarios;
@@ -31,6 +38,59 @@ public class AdminPanel extends JPanel {
         add(btnCambiarLecciones);
         add(btnEnviarEmail);
         add(btnVolverLogin);
+
+        // Configuración de acciones de botones
+        configurarAcciones();
+    }
+
+    private void configurarAcciones() {
+        btnGestionUsuarios.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                GestionUsuarios gestionUsuarios = new GestionUsuarios();
+                JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(AdminPanel.this);
+                frame.getContentPane().removeAll();
+                frame.add(gestionUsuarios);
+                frame.revalidate();
+                frame.repaint();
+            }
+        });
+
+        btnCambiarLecciones.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                CambiarLecciones cambiarLecciones = new CambiarLecciones();
+                JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(AdminPanel.this);
+                frame.getContentPane().removeAll();
+                frame.add(cambiarLecciones);
+                frame.revalidate();
+                frame.repaint();
+            }
+        });
+
+        btnEnviarEmail.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                EnviarEmail enviarEmail = new EnviarEmail();
+                JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(AdminPanel.this);
+                frame.getContentPane().removeAll();
+                frame.add(enviarEmail);
+                frame.revalidate();
+                frame.repaint();
+            }
+        });
+
+        btnVolverLogin.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Login login = new Login();
+                JFrame frame = (JFrame) SwingUtilities.getWindowAncestor(AdminPanel.this);
+                frame.getContentPane().removeAll();
+                frame.add(login);
+                frame.revalidate();
+                frame.repaint();
+            }
+        });
     }
 
     // Métodos para acceder a los botones
@@ -50,3 +110,4 @@ public class AdminPanel extends JPanel {
         return btnEnviarEmail;
     }
 }
+
