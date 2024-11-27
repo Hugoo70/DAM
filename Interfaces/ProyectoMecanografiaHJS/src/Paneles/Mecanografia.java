@@ -153,13 +153,13 @@ public class Mecanografia extends JFrame {
 			  Una comprobación rápida para ver si los metodos se guardan bien en los ARRAY's
 			 
 			  Comprobación de correcta lectura
-			  */
+			  
 			  for (Usuario u : usuarios) { System.out.println(u); }
 			  
 			  for (String t : textos) { System.out.println(t); }
 			  
 			  for (Estadisticas e : estadisticas) { System.out.println(e); }
-			 
+			 */
 
 		}
 		// Si todo esta bien, acabara el contador y saltara al Panel del Login
@@ -188,89 +188,109 @@ public class Mecanografia extends JFrame {
 	 *  - Tiene minusculas
 	 *  - Tiene Mayusculas
 	 */
-	public boolean validarCredenciales(String name, String pass) {
-		if (name.length() < 6 || pass.length() < 6) {
-			return false;
-		}
+	public String validarCredenciales(String pass) {
+	    if (pass.length() < 6) {
+	        return "La contraseña debe tener al menos 6 caracteres.";
+	    }
 
-		boolean tieneMayuscula = false;
-		boolean tieneMinuscula = false;
-		boolean tieneNumero = false;
+	    boolean tieneMayuscula = false;
+	    boolean tieneMinuscula = false;
+	    boolean tieneNumero = false;
 
-		for (char c : pass.toCharArray()) {
-			if (Character.isUpperCase(c))
-				tieneMayuscula = true;
-			if (Character.isLowerCase(c))
-				tieneMinuscula = true;
-			if (Character.isDigit(c))
-				tieneNumero = true;
-		}
+	    for (char c : pass.toCharArray()) {
+	        if (Character.isUpperCase(c)) {
+	            tieneMayuscula = true;
+	        }
+	        if (Character.isLowerCase(c)) {
+	            tieneMinuscula = true;
+	        }
+	        if (Character.isDigit(c)) {
+	            tieneNumero = true;
+	        }
+	    }
 
-		return tieneMayuscula && tieneMinuscula && tieneNumero;
+	    if (!tieneMayuscula) {
+	        return "La contraseña debe contener al menos una letra mayúscula.";
+	    }
+	    if (!tieneMinuscula) {
+	        return "La contraseña debe contener al menos una letra minúscula.";
+	    }
+	    if (!tieneNumero) {
+	        return "La contraseña debe contener al menos un número.";
+	    }
+
+	    return "VALIDO";
 	}
-	// Comprobación de caracteres y si esta bien pasa al Panel de dificultades
-	public void mostrarPanel(Component panel) {
-	    getContentPane().removeAll();  // Eliminar todos los componentes actuales
-	    getContentPane().add(panel);   // Agregar el nuevo panel
-	    revalidate();                  // Validar los cambios
-	    repaint();                     // Repintar la ventana
-	}
+	
 
 	public void btnLogin() {
-		login.getBotonLog().addActionListener(e -> {
-			String pass = String.valueOf(login.getPasswordField().getPassword());
-			String name = login.getTextUser().getText();
-			for (Usuario usuario : usuarios) {
-				if (!validarCredenciales(name, pass) || !(name.equals(usuario.getName()) && pass.equals(usuario.getPass()))) {
-					JOptionPane.showMessageDialog(null,
-							"Usuario o contraseña inválidos (Recuerde: mínimo 6 caracteres, incluir mayúsculas, minúsculas y números)",
-							"LOG-IN", JOptionPane.WARNING_MESSAGE);
-				}
+	    login.getBotonLog().addActionListener(e -> {
+	        String pass = String.valueOf(login.getPasswordField().getPassword());
+	        String name = login.getTextUser().getText();
+	        
+	        if (name.equals("a") && pass.equals("a")) {
+	            // Mostrar panel de administrador
+	            AdminPanel adminPanel = new AdminPanel();
+	            adminPanel.getBtnGestionUsuarios().addActionListener(e1 -> {
+	                GestionUsuarios gestionUsuarios = new GestionUsuarios();
+	                mostrarPanel(gestionUsuarios);
+	            });
+	            adminPanel.getBtnCambiarLecciones().addActionListener(e3 -> {
+	                CambiarLecciones cambiarLecciones = new CambiarLecciones();
+	                mostrarPanel(cambiarLecciones);
+	            });
+	            adminPanel.getBtnEnviarEmail().addActionListener(e4 -> {
+	                // Código para enviar email
+	            });
+	            adminPanel.getBtnVolverLogin().addActionListener(e2 -> {
+	                mostrarPanel(login); // Regresar al panel de Login
+	                login.setVisible(true); // Asegurarse de que esté visible
+	            });
 
-				if (name.equals(usuario.getName()) && pass.equals(usuario.getPass())) {
-					usuarioLogin = usuario;
+	            mostrarPanel(adminPanel);
+	        }
+	        String validacion = validarCredenciales(pass);
+	        if (!validacion.equals("VALIDO")) {
+	            JOptionPane.showMessageDialog(null,
+	                    "Error: " + validacion,
+	                    "LOG-IN", JOptionPane.WARNING_MESSAGE);
+	        }
 
-					// Panel de Dificultades
-					login.setVisible(false);
-					setResizable(false);
-					setLocationRelativeTo(null);
-					setTitle("MECANOGRAFIA");
+	        boolean usuarioEncontrado = false;
 
-					dificultad = new Dificultad();
-					add(dificultad);
-					btnDificultades();
-				}
-				
-				if (name.equals("a") && pass.equals("a")) {
-				    // Mostrar panel de administrador
-				    AdminPanel adminPanel = new AdminPanel();
-				    adminPanel.getBtnGestionUsuarios().addActionListener(e1 -> {
-				        GestionUsuarios gestionUsuarios = new GestionUsuarios();
-				        mostrarPanel(gestionUsuarios);
-				    });
-				    adminPanel.getBtnCambiarLecciones().addActionListener(e3 -> {
-				        CambiarLecciones cambiarLecciones = new CambiarLecciones();
-				        mostrarPanel(cambiarLecciones);
-				    });
-				    adminPanel.getBtnEnviarEmail().addActionListener(e4 -> {
-				    	
-				    });
-				    adminPanel.getBtnVolverLogin().addActionListener(e2 -> {
-				        mostrarPanel(login); // Regresar al panel de Login
-				        login.setVisible(true); // Asegurarse de que esté visible
-				    });
+	        for (Usuario usuario : usuarios) {
+	            if (name.equals(usuario.getName()) && pass.equals(usuario.getPass())) {
+	                usuarioLogin = usuario;
+	                usuarioEncontrado = true;
 
-				    mostrarPanel(adminPanel);
-				}
+	                // Panel de Dificultades
+	                login.setVisible(false);
+	                setResizable(false);
+	                setLocationRelativeTo(null);
+	                setTitle("MECANOGRAFIA");
 
+	                dificultad = new Dificultad();
+	                add(dificultad);
+	                btnDificultades();
+	            }
+	        }
 
-			}
-		});
+	        if (!usuarioEncontrado  && validacion.equals("VALIDO")) {
+	            JOptionPane.showMessageDialog(null,
+	                    "Usuario o contraseña incorrectos.",
+	                    "LOG-IN", JOptionPane.WARNING_MESSAGE);
+	        }
+
+	    });
 	}
-	/* 
-	 * Método para entrar al juego con la dificultad elegida.
-	 * Según el nivel saltara un mensaje con las normas de cada nivel.
-	 */
+	
+	public void mostrarPanel(Component panel) {
+	    getContentPane().removeAll(); 
+	    getContentPane().add(panel);   
+	    revalidate();                 
+	    repaint();                
+	}
+
 	
 	public void btnDificultades() {
 
@@ -307,13 +327,11 @@ public class Mecanografia extends JFrame {
 		game = new Game(dif, textos, estadisticas, usuarios, usuarioLogin);
 		add(game);
 		game.setVisible(true);
-		// menuOpciones();
-		// botonBack();
-
 		// btnEventoFallo();
 		// btnEventoFelicitaciones();
 
 	}
+	
 	// Método para poner una imagen de fondo 
 	
 	private Image requestImage(String ruta) {

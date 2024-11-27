@@ -52,22 +52,27 @@ public class Game extends JPanel {
 
 		// Agregar DocumentListener
 		textoInteractivo.getTextoEscribir().getDocument().addDocumentListener(new DocumentListener() {
-			@Override
-			public void insertUpdate(DocumentEvent e) {
-				ColorCaracter();
-				verificarCondiciones();
-			}
+		    @Override
+		    public void insertUpdate(DocumentEvent e) {
+		        actualizarVista();
+		    }
 
-			@Override
-			public void removeUpdate(DocumentEvent e) {
-				ColorCaracter();
-			}
+		    @Override
+		    public void removeUpdate(DocumentEvent e) {
+		        actualizarVista();
+		    }
 
-			@Override
-			public void changedUpdate(DocumentEvent e) {
-				ColorCaracter();
-			}
+		    @Override
+		    public void changedUpdate(DocumentEvent e) {
+		        actualizarVista();
+		    }
+
+		    private void actualizarVista() {
+		        textoInteractivo.actualizarVista(textos.get(dif));
+		    }
 		});
+
+
 
 		// Bloquear retroceso y agregar resaltado en tiempo real
 		textoInteractivo.getTextoEscribir().addKeyListener(new KeyAdapter() {

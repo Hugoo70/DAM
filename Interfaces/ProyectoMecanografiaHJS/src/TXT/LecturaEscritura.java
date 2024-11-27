@@ -59,12 +59,18 @@ public class LecturaEscritura {
 	                    (leerDatos.split(";")[3]))
 	            );
 	        }
-
+	        
 	        br.close();
+
+	        if (listaUsuarios.size() < 3 || listaUsuarios.size() > 5) {
+	            JOptionPane.showMessageDialog(null, "El archivo debe contener entre 3 y 5 usuarios. Cerrando...",
+	                    "ERROR DE USUARIOS", 0);
+	            System.exit(0);
+	        }
 
 	    } catch (IOException e) {
 	        JOptionPane.showMessageDialog(null, "ERROR DE LECTURA",
-	                "NO SE HAN PODIDO LEER LOS ARCHIVOS DE " + fichero + ", CERRANDO...", 0);
+	                "NO SE HAN PODIDO LEER LOS ARCHIVOS DE " + fichero + ".\nCERRANDO...", 0);
 	        System.exit(0);
 	    }
 	}
@@ -84,7 +90,7 @@ public class LecturaEscritura {
 			br.close();
 		} catch (IOException e) {
 			JOptionPane.showMessageDialog(null, "ERROR DE LECTURA",
-					"NO SE HAN PODIDO LEER LOS ARCHIVOS DE " + fichero + ", CERRANDO...", 0);
+					"NO SE HAN PODIDO LEER LOS ARCHIVOS DE " + fichero + ".\nCERRANDO...", 0);
 			System.exit(0);
 		}
 	}
