@@ -12,6 +12,7 @@ import TXT.LecturaEscritura;
 import TXT.Usuario;
 
 public class Game extends JPanel {
+	
 	private int dif;
 	private ArrayList<String> textos;
 	private Usuario usuarioLogin;
@@ -20,6 +21,7 @@ public class Game extends JPanel {
 	private Info infoPanel;
 	private long tiempoInicio = 0;
 	private boolean tiempoIniciado = false;
+	private Dimension PantallaCompleta;
 
 	public Game(int dif, ArrayList<String> textos, ArrayList<Estadisticas> estadisticas, ArrayList<Usuario> usuarios,
 			Usuario usuarioLogin) {
@@ -28,7 +30,7 @@ public class Game extends JPanel {
 		this.usuarioLogin = usuarioLogin;
 
 		setLayout(null);
-		Dimension PantallaCompleta = Toolkit.getDefaultToolkit().getScreenSize();
+		PantallaCompleta = Toolkit.getDefaultToolkit().getScreenSize();
 		setSize(PantallaCompleta);
 
 		textoInteractivo = new Texto();

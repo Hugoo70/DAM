@@ -69,8 +69,13 @@ public class LecturaEscritura {
 	        }
 
 	    } catch (IOException e) {
+<<<<<<< HEAD
 	        JOptionPane.showMessageDialog(null, "ERROR DE LECTURA",
 	                "NO SE HAN PODIDO LEER LOS ARCHIVOS DE " + fichero + ".\nCERRANDO...", 0);
+=======
+	        JOptionPane.showMessageDialog(null, "Archivos no encontrados o defectuosos (" + fichero + ").\nCerrando programa...",
+	                "ERROR DE LECTURA", 0);
+>>>>>>> 2b3675a273ea83f4162927c2526994249f6e2bae
 	        System.exit(0);
 	    }
 	}
@@ -89,8 +94,13 @@ public class LecturaEscritura {
 			}
 			br.close();
 		} catch (IOException e) {
+<<<<<<< HEAD
 			JOptionPane.showMessageDialog(null, "ERROR DE LECTURA",
 					"NO SE HAN PODIDO LEER LOS ARCHIVOS DE " + fichero + ".\nCERRANDO...", 0);
+=======
+	        JOptionPane.showMessageDialog(null, "Archivos no encontrados o defectuosos (" + fichero + ").\nCerrando programa...",
+	                "ERROR DE LECTURA", 0);
+>>>>>>> 2b3675a273ea83f4162927c2526994249f6e2bae
 			System.exit(0);
 		}
 	}
@@ -114,8 +124,9 @@ public class LecturaEscritura {
 			br.close();
 
 		} catch (IOException e) {
-			JOptionPane.showMessageDialog(null, "Error en la lecutra de fechas", "Error", 0);
-			System.exit(0);
+	        JOptionPane.showMessageDialog(null, "Archivos no encontrados o defectuosos (" + fichero + ").\nCerrando programa...",
+	                "ERROR DE LECTURA", 0);
+	        System.exit(0);
 		}
 	}
 	

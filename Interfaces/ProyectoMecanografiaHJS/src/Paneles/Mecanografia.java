@@ -103,8 +103,12 @@ public class Mecanografia extends JFrame {
 			setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 			addWindowListener(new WindowAdapter() {
 				public void windowClosing(WindowEvent e) {
-					Confirmarsalir();
-					setVisible(true);
+
+					int valor = JOptionPane.showConfirmDialog(null, "¿Seguro que desea cerrar la aplicación?",
+							"MecanoDAM", JOptionPane.YES_NO_OPTION);
+					if (valor == JOptionPane.YES_OPTION) {
+						System.exit(0);
+					}
 				}
 			});
 
@@ -114,28 +118,18 @@ public class Mecanografia extends JFrame {
 		}
 	}
 
-	// Método para preguntarCerrarApp (Lo separno porque si no, no me detecta el
-	// showConfirmDialog)
-	private void Confirmarsalir() {
-		int valor = JOptionPane.showConfirmDialog(this, "¿Seguro que desea cerrar la aplicación?", "MecanoDAM",
-				JOptionPane.YES_NO_OPTION);
-		if (valor == JOptionPane.YES_OPTION) {
-			System.exit(0);
-		}
-	}
-
 	// Método para verificar archivos en el Panel de carga
 	public void VerificarArchivos(int contador) {
-		/* 
+		/*
 		 * Cuando lleve 4 segundos verificara si estan los archivos y si estan los leera
-		 * para llenar los ARRAYLIST con la información de los .txt.
-		 * Si alguno no se encontrara o no se guarda bien, saltaria un mensaje y cerraria la APP
+		 * para llenar los ARRAYLIST con la información de los .txt. Si alguno no se
+		 * encontrara o no se guarda bien, saltaria un mensaje y cerraria la APP
 		 * 
 		 */
 		if (contador == 4) {
 
 			// Verificar archivos en general
-			//lecturaEscritura.ArchivosTXT();
+			// lecturaEscritura.ArchivosTXT();
 
 			// Verificar .txt de usuarios
 			lecturaEscritura.FicheroUsuario("src/TXT/Usuarios.txt");
@@ -150,6 +144,7 @@ public class Mecanografia extends JFrame {
 			estadisticas = lecturaEscritura.getListaEstadisticas();
 
 			/*
+<<<<<<< HEAD
 			  Una comprobación rápida para ver si los metodos se guardan bien en los ARRAY's
 			 
 			  Comprobación de correcta lectura
@@ -160,7 +155,24 @@ public class Mecanografia extends JFrame {
 			  
 			  for (Estadisticas e : estadisticas) { System.out.println(e); }
 			 */
+=======
+			 * Una comprobación rápida para ver si los metodos se guardan bien en los
+			 * ARRAY's
+>>>>>>> 2b3675a273ea83f4162927c2526994249f6e2bae
 
+			 
+			for (Usuario u : usuarios) {
+				System.out.println(u);
+			}
+
+			for (String t : textos) {
+				System.out.println(t);
+			}
+
+			for (Estadisticas e : estadisticas) {
+				System.out.println(e);
+			}
+			*/
 		}
 		// Si todo esta bien, acabara el contador y saltara al Panel del Login
 		if (contador == 6) {
@@ -182,16 +194,21 @@ public class Mecanografia extends JFrame {
 		}
 	}
 
-	/* 
-	 * Método para validar si el usuario y la contraseña no son:
-	 *  - mayores de 6 caracteres
-	 *  - Tiene minusculas
-	 *  - Tiene Mayusculas
+	/*
+	 * Método para validar si el usuario y la contraseña no son: - mayores de 6
+	 * caracteres - Tiene minusculas - Tiene Mayusculas
 	 */
+<<<<<<< HEAD
 	public String validarCredenciales(String pass) {
 	    if (pass.length() < 6) {
 	        return "La contraseña debe tener al menos 6 caracteres.";
 	    }
+=======
+	public boolean validarCredenciales(String pass) {
+		if (pass.length() < 6) {
+			return false;
+		}
+>>>>>>> 2b3675a273ea83f4162927c2526994249f6e2bae
 
 	    boolean tieneMayuscula = false;
 	    boolean tieneMinuscula = false;
@@ -209,6 +226,7 @@ public class Mecanografia extends JFrame {
 	        }
 	    }
 
+<<<<<<< HEAD
 	    if (!tieneMayuscula) {
 	        return "La contraseña debe contener al menos una letra mayúscula.";
 	    }
@@ -220,10 +238,22 @@ public class Mecanografia extends JFrame {
 	    }
 
 	    return "VALIDO";
+=======
+		return tieneMayuscula && tieneMinuscula && tieneNumero;
+	}
+
+	// Comprobación de caracteres y si esta bien pasa al Panel de dificultades
+	public void mostrarPanel(Component panel) {
+		getContentPane().removeAll(); // Eliminar todos los componentes actuales
+		getContentPane().add(panel); // Agregar el nuevo panel
+		revalidate(); // Validar los cambios
+		repaint(); // Repintar la ventana
+>>>>>>> 2b3675a273ea83f4162927c2526994249f6e2bae
 	}
 	
 
 	public void btnLogin() {
+<<<<<<< HEAD
 	    login.getBotonLog().addActionListener(e -> {
 	        String pass = String.valueOf(login.getPasswordField().getPassword());
 	        String name = login.getTextUser().getText();
@@ -246,6 +276,17 @@ public class Mecanografia extends JFrame {
 	                mostrarPanel(login); // Regresar al panel de Login
 	                login.setVisible(true); // Asegurarse de que esté visible
 	            });
+=======
+		login.getBotonLog().addActionListener(e -> {
+			String pass = String.valueOf(login.getPasswordField().getPassword());
+			String name = login.getTextUser().getText();
+			for (Usuario usuario : usuarios) {
+				if (!validarCredenciales(pass)) {
+					JOptionPane.showMessageDialog(null,
+							"Usuario o contraseña inválidos (Recuerde: mínimo 6 caracteres, incluir mayúsculas, minúsculas y números)",
+							"LOG-IN", JOptionPane.WARNING_MESSAGE);
+				}
+>>>>>>> 2b3675a273ea83f4162927c2526994249f6e2bae
 
 	            mostrarPanel(adminPanel);
 	        }
@@ -258,6 +299,7 @@ public class Mecanografia extends JFrame {
 
 	        boolean usuarioEncontrado = false;
 
+<<<<<<< HEAD
 	        for (Usuario usuario : usuarios) {
 	            if (name.equals(usuario.getName()) && pass.equals(usuario.getPass())) {
 	                usuarioLogin = usuario;
@@ -292,6 +334,42 @@ public class Mecanografia extends JFrame {
 	}
 
 	
+=======
+					dificultad = new Dificultad();
+					add(dificultad);
+					btnDificultades();
+				}
+
+				if (name.equals("a") && pass.equals("a")) {
+					AdminPanel adminPanel = new AdminPanel();
+					adminPanel.getBtnGestionUsuarios().addActionListener(e1 -> {
+						GestionUsuarios gestionUsuarios = new GestionUsuarios();
+						mostrarPanel(gestionUsuarios);
+					});
+					adminPanel.getBtnCambiarLecciones().addActionListener(e3 -> {
+						CambiarLecciones cambiarLecciones = new CambiarLecciones();
+						mostrarPanel(cambiarLecciones);
+					});
+					adminPanel.getBtnEnviarEmail().addActionListener(e4 -> {
+
+					});
+					adminPanel.getBtnVolverLogin().addActionListener(e2 -> {
+						mostrarPanel(login); 
+						login.setVisible(true);
+					});
+
+					mostrarPanel(adminPanel);
+				}
+
+			}
+		});
+	}
+	/*
+	 * Método para entrar al juego con la dificultad elegida. Según el nivel saltara
+	 * un mensaje con las normas de cada nivel.
+	 */
+
+>>>>>>> 2b3675a273ea83f4162927c2526994249f6e2bae
 	public void btnDificultades() {
 
 		dificultad.getBtnDificultades().addActionListener(e -> {
@@ -331,9 +409,14 @@ public class Mecanografia extends JFrame {
 		// btnEventoFelicitaciones();
 
 	}
+<<<<<<< HEAD
 	
 	// Método para poner una imagen de fondo 
 	
+=======
+	// Método para poner una imagen de fondo
+
+>>>>>>> 2b3675a273ea83f4162927c2526994249f6e2bae
 	private Image requestImage(String ruta) {
 		BufferedImage image = null;
 
