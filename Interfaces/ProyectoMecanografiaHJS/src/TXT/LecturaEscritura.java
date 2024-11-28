@@ -108,7 +108,6 @@ public class LecturaEscritura {
 	                        "Advertencia: Se encontró una línea vacía en el archivo textos.txt.",
 	                        "Advertencia en textos",
 	                        JOptionPane.WARNING_MESSAGE);
-	                continue;
 	            }
 
 	            textos.add(linea);
@@ -151,13 +150,12 @@ public class LecturaEscritura {
 		                        "Error crítico: Línea mal formada en el archivo Estadisticas.txt:\n" + linea,
 		                        "Error en archivo de estadísticas",
 		                        JOptionPane.ERROR_MESSAGE);
-		                System.exit(0); // Cerrar el programa
+		                System.exit(0); 
 		            }
 
 		            try {
-		                // Crear y agregar estadística a la lista
 		                Estadisticas estadistica = new Estadisticas(
-		                        datos[0], // user
+		                        datos[0], // id
 		                        Integer.parseInt(datos[1]), // dif
 		                        Integer.parseInt(datos[2]), // tiempoTranscurrido
 		                        Integer.parseInt(datos[3]), // ppm

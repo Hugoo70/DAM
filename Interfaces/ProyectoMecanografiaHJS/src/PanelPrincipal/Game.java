@@ -7,6 +7,7 @@ import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 
+import Paneles.Mecanografia;
 import TXT.Estadisticas;
 import TXT.LecturaEscritura;
 import TXT.Usuario;
@@ -22,7 +23,7 @@ public class Game extends JPanel {
 	private long tiempoInicio = 0;
 	private boolean tiempoIniciado = false;
 	private boolean juegoTerminado = false;
-
+	private Image image;
 
 	public Game(int dif, ArrayList<String> textos, ArrayList<Estadisticas> estadisticas, ArrayList<Usuario> usuarios,
 			Usuario usuarioLogin) {
@@ -33,6 +34,9 @@ public class Game extends JPanel {
 		setLayout(null);
 		Dimension PantallaCompleta = Toolkit.getDefaultToolkit().getScreenSize();
 		setSize(PantallaCompleta);
+		image = Mecanografia.requestImage("src/img/fondoGame.jpg");
+		
+
 		
         menu = new MenuBarPanel();
         menu.setBounds(0, 0, PantallaCompleta.width, 30);
@@ -233,11 +237,14 @@ public class Game extends JPanel {
 
 
 	private void mostrarMensajeFallo(int errores, long tiempoTranscurrido) {
+		
 		String mensaje = "Has fallado. \nTiempo transcurrido: " + tiempoTranscurrido + " segundos\n" + "Errores: "
 				+ errores + "\n" + "¿Deseas intentar de nuevo o salir?";
+		ImageIcon icon = new ImageIcon("src/img/fallo.webp");
+		Image scaledImage = icon.getImage().getScaledInstance(64, 64, Image.SCALE_SMOOTH);
+		ImageIcon scaledIcon = new ImageIcon(scaledImage);
 
-		int opcion = JOptionPane.showConfirmDialog(null, mensaje, "Juego terminado", JOptionPane.YES_NO_OPTION,
-				JOptionPane.WARNING_MESSAGE);
+		int opcion = JOptionPane.showConfirmDialog(null, mensaje, "Juego terminado", JOptionPane.YES_NO_OPTION,JOptionPane.PLAIN_MESSAGE, scaledIcon);
 
 		if (opcion == JOptionPane.YES_OPTION) {
 			reiniciarJuego();
@@ -255,7 +262,11 @@ public class Game extends JPanel {
 	        juegoTerminado = false; // Reiniciar el estado del juego
 	    });
 	}
+	@Override
+	public void paintComponent(Graphics g) {
+		g.drawImage(image, 0, 0, getWidth(), getHeight(), null);
 
+	}
 	
 	
 

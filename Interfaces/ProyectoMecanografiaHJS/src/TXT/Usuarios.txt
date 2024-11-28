@@ -1,4 +1,7 @@
 1234;Hugo;Hugo05;fp.hjimenezsoler@salesianosdosa.com
-4321;Sergio;Sergi5;a@a.com
 1243;Lucas;Lucas5;a@a.com
+<<<<<<< HEAD
 9876;Sofia;Sofia0;sofia.jsol@gmail.com
+=======
+4321;Daniel;1234Aa;☺@gmail.com
+>>>>>>> 4e4481fee2111d3d788a3e999fdb5701dbdc48f8
