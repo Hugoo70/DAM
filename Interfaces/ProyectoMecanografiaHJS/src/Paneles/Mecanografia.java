@@ -16,6 +16,7 @@ import TXT.Usuario;
 
 import java.awt.Component;
 import java.awt.Dimension;
+import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.event.MouseAdapter;
@@ -64,6 +65,7 @@ public class Mecanografia extends JFrame {
 		lecturaEscritura = new LecturaEscritura();
 		login = new Login();
 		carga = new Carga(image);
+		
 
 		// Inicializar los primeros Paneles
 		login.setVisible(false);
@@ -350,7 +352,7 @@ public class Mecanografia extends JFrame {
 	
 	// Método para poner una imagen de fondo 
 	
-	private Image requestImage(String ruta) {
+	public static Image requestImage(String ruta) {
 		BufferedImage image = null;
 
 		try {
@@ -363,5 +365,7 @@ public class Mecanografia extends JFrame {
 
 		return image;
 	}
+	
+
 
 }

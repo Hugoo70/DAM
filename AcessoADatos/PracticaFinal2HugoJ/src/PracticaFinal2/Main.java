@@ -232,7 +232,8 @@ public class Main {
 			System.out.println("Empleado insertado con éxito. Filas afectadas: " + filas);
 		}
 	}
-
+	
+	// Método para modificar el empleado.
 	public static void modificarEmpleado(Connection conexion) throws SQLException {
 		System.out.println("Modificar empleado existente:");
 		System.out.print("Código de empleado: ");
@@ -256,6 +257,7 @@ public class Main {
 		}
 	}
 
+	// Método para eliminar el empleado.
 	public static void eliminarEmpleado(Connection conexion) throws SQLException {
 		System.out.println("Eliminar empleado:");
 		System.out.print("Código de empleado: ");
@@ -269,6 +271,12 @@ public class Main {
 		}
 	}
 
+
+	/*
+	 * Método para incluir un nuevo producto en la base de datos
+	 * 
+	 * AAREGLAR: SI COINCIDE EL NUMEROCLIENTE EL PROGRAMA ROMPE.
+	 */
 	public static void insertarProducto(Connection conexion) throws SQLException {
 		System.out.println("Insertar nuevo producto:");
 		System.out.print("ID del producto: ");
@@ -276,7 +284,7 @@ public class Main {
 		teclado.nextLine();
 		System.out.print("Nombre: ");
 		String nombre = teclado.nextLine();
-		System.out.print("Precio unitario: ");
+		System.out.print("Precio unitario: (,)");
 		float precioUnitario = teclado.nextFloat();
 		System.out.print("Stock: ");
 		int stock = teclado.nextInt();
