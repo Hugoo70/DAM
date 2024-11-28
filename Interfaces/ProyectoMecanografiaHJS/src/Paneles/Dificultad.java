@@ -59,3 +59,4 @@ public class Dificultad extends JPanel {
         this.btnDificultades = btnDificultades;
     }
 }
+

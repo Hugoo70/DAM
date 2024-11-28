@@ -2,6 +2,7 @@ package TXT;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.HashSet;
 
 import javax.swing.JOptionPane;
 
@@ -30,88 +31,160 @@ public class LecturaEscritura {
 		return estadisticas;
 	}
 
-	public void ArchivosTXT() {
+	public void FicheroUsuario(String ruta) {
+	    listaUsuarios = new ArrayList<>();
 
-		File usuarioFile = new File("src/TXT/Usuarios.txt");
-		File estadisticasFile = new File("src/TXT/estadisticas.txt");
-		File textosFiles = new File("src/TXT/textos.txt");
+	    try (BufferedReader br = new BufferedReader(new FileReader(ruta))) {
+	        String linea;
+	        while ((linea = br.readLine()) != null) {
+	            String[] datos = linea.split(";");
 
-		if (!(usuarioFile.exists() && estadisticasFile.exists() && textosFiles.exists())) {
+	            // Validar que la línea tiene el número esperado de campos
+	            if (datos.length != 4) { // Se espera ID, nombre, contraseña, correo
+	                JOptionPane.showMessageDialog(null,
+	                        "Error: Línea mal formada en el archivo Usuarios.txt:\n" + linea,
+	                        "Error en archivo de usuarios",
+	                        JOptionPane.ERROR_MESSAGE);
+	                System.exit(0); // Cerrar el programa
+	            }
 
-			JOptionPane.showMessageDialog(null, "Error, Fichero no encontrado!", "ERROR", 0);
-			System.exit(0);
+	            // Validar que la contraseña no supere los 6 caracteres
+	            if (datos[2].length() > 6) { // datos[2] es la contraseña
+	                JOptionPane.showMessageDialog(null,
+	                        "Error: La contraseña del usuario '" + datos[1] + "' supera los 6 caracteres.",
+	                        "Error en archivo de usuarios",
+	                        JOptionPane.ERROR_MESSAGE);
+	                System.exit(0); // Cerrar el programa
+	            }
 
-		}
-	}
+	            // Validar que no haya nombres duplicados
+	            for (Usuario u : listaUsuarios) {
+	                if (u.getName().equalsIgnoreCase(datos[1])) {
+	                    JOptionPane.showMessageDialog(null,
+	                            "Error: El nombre de usuario '" + datos[1] + "' está duplicado.",
+	                            "Error en archivo de usuarios",
+	                            JOptionPane.ERROR_MESSAGE);
+	                    System.exit(0); // Cerrar el programa
+	                }
+	            }
 
-	public void FicheroUsuario(String fichero) {
-	    try {
-	        FileReader fr = new FileReader(fichero);
-	        BufferedReader br = new BufferedReader(fr);
-	        String leerDatos;
-
-	        while ((leerDatos = br.readLine()) != null) {
-	            listaUsuarios.add(
-	                new Usuario(
-	                    (leerDatos.split(";")[0]), 
-	                    (leerDatos.split(";")[1]), 
-	                    (leerDatos.split(";")[2]), 
-	                    (leerDatos.split(";")[3]))
-	            );
+	            // Crear y agregar usuario a la lista
+	            Usuario usuario = new Usuario(datos[0], datos[1], datos[2], datos[3]);
+	            listaUsuarios.add(usuario);
 	        }
 
-	        br.close();
+	        // Validar que el número de usuarios esté entre 3 y 5
+	        if (listaUsuarios.size() < 3 || listaUsuarios.size() > 5) {
+	            JOptionPane.showMessageDialog(null,
+	                    "Error: El archivo de usuarios debe contener entre 3 y 5 usuarios.\nUsuarios encontrados: " + listaUsuarios.size(),
+	                    "Error en archivo de usuarios",
+	                    JOptionPane.ERROR_MESSAGE);
+	            System.exit(0); // Cerrar el programa
+	        }
 
+	    } catch (FileNotFoundException e) {
+	        JOptionPane.showMessageDialog(null,
+	                "Error crítico: El archivo Usuarios.txt no se encontró en la ruta especificada.",
+	                "Archivo no encontrado",
+	                JOptionPane.ERROR_MESSAGE);
+	        System.exit(0); // Cerrar el programa
 	    } catch (IOException e) {
-	        JOptionPane.showMessageDialog(null, "Archivos no encontrados o defectuosos (" + fichero + ").\nCerrando programa...",
-	                "ERROR DE LECTURA", 0);
+	        JOptionPane.showMessageDialog(null,
+	                "Error al leer el archivo Usuarios.txt:\n" + e.getMessage(),
+	                "Error en archivo de usuarios",
+	                JOptionPane.ERROR_MESSAGE);
+	        System.exit(0); // Cerrar el programa
+	    }
+	}
+
+	public void FicheroTexto(String fichero) {
+	    textos = new ArrayList<>();
+
+	    try (BufferedReader br = new BufferedReader(new FileReader(fichero))) {
+	        String linea;
+	        while ((linea = br.readLine()) != null) {
+	            if (linea.trim().isEmpty()) {
+	                JOptionPane.showMessageDialog(null,
+	                        "Advertencia: Se encontró una línea vacía en el archivo textos.txt.",
+	                        "Advertencia en textos",
+	                        JOptionPane.WARNING_MESSAGE);
+	                continue;
+	            }
+
+	            textos.add(linea);
+	        }
+	    } catch (FileNotFoundException e) {
+	        JOptionPane.showMessageDialog(null,
+	                "Error: El archivo textos.txt no se encontró.",
+	                "Error en archivo de textos",
+	                JOptionPane.ERROR_MESSAGE);
+	        System.exit(0);
+	    } catch (IOException e) {
+	        JOptionPane.showMessageDialog(null,
+	                "Error al leer el archivo textos.txt:\n" + e.getMessage(),
+	                "Error en archivo",
+	                JOptionPane.ERROR_MESSAGE);
+	        System.exit(0);
+	    }
+
+	    // Comprobación final de la lista de textos
+	    if (textos.size() < 2) { // Suponiendo que debe haber al menos 2 textos
+	        JOptionPane.showMessageDialog(null,
+	                "Error: El archivo textos.txt debe contener al menos un texto para cada dificultad.",
+	                "Error en archivo de textos",
+	                JOptionPane.ERROR_MESSAGE);
 	        System.exit(0);
 	    }
 	}
 
-
-	public void FicheroTexto(String fichero) {
-		try {
-			FileReader fr = new FileReader(fichero);
-			BufferedReader br = new BufferedReader(fr);
-			String lineaTexto;
-
-			while ((lineaTexto = br.readLine()) != null) {
-
-				textos.add(lineaTexto.split(";")[0]);
-				textos.add(lineaTexto.split(";")[1]);
-			}
-			br.close();
-		} catch (IOException e) {
-	        JOptionPane.showMessageDialog(null, "Archivos no encontrados o defectuosos (" + fichero + ").\nCerrando programa...",
-	                "ERROR DE LECTURA", 0);
-			System.exit(0);
-		}
-	}
-
 	public void FicheroEstadistica(String fichero) {
-		try {
+		 estadisticas = new ArrayList<>();
 
-			FileReader fr = new FileReader(fichero);
-			BufferedReader br = new BufferedReader(fr);
-			String leerStats;
+		    try (BufferedReader br = new BufferedReader(new FileReader(fichero))) {
+		        String linea;
+		        while ((linea = br.readLine()) != null) {
+		            String[] datos = linea.split(";");
 
-			while ((leerStats = br.readLine()) != null) {
+		            // Validar que la línea tiene exactamente 5 campos
+		            if (datos.length != 5) {
+		                JOptionPane.showMessageDialog(null,
+		                        "Error crítico: Línea mal formada en el archivo Estadisticas.txt:\n" + linea,
+		                        "Error en archivo de estadísticas",
+		                        JOptionPane.ERROR_MESSAGE);
+		                System.exit(0); // Cerrar el programa
+		            }
 
-				this.estadisticas.add(new Estadisticas(leerStats.split(";")[0],
-						Integer.parseInt(leerStats.split(";")[1]), 
-						Integer.parseInt(leerStats.split(";")[2]),
-						Integer.parseInt(leerStats.split(";")[3]), 
-						Integer.parseInt(leerStats.split(";")[4])));
-			}
-
-			br.close();
-
-		} catch (IOException e) {
-	        JOptionPane.showMessageDialog(null, "Archivos no encontrados o defectuosos (" + fichero + ").\nCerrando programa...",
-	                "ERROR DE LECTURA", 0);
-	        System.exit(0);
-		}
+		            try {
+		                // Crear y agregar estadística a la lista
+		                Estadisticas estadistica = new Estadisticas(
+		                        datos[0], // user
+		                        Integer.parseInt(datos[1]), // dif
+		                        Integer.parseInt(datos[2]), // tiempoTranscurrido
+		                        Integer.parseInt(datos[3]), // ppm
+		                        Integer.parseInt(datos[4])  // errores
+		                );
+		                estadisticas.add(estadistica);
+		            } catch (NumberFormatException e) {
+		                JOptionPane.showMessageDialog(null,
+		                        "Error crítico: Formato numérico inválido en la línea:\n" + linea,
+		                        "Error de formato",
+		                        JOptionPane.ERROR_MESSAGE);
+		                System.exit(0); // Cerrar el programa
+		            }
+		        }
+		    } catch (FileNotFoundException e) {
+		        JOptionPane.showMessageDialog(null,
+		                "Error crítico: El archivo Estadisticas.txt no se encontró en la ruta especificada.",
+		                "Archivo no encontrado",
+		                JOptionPane.ERROR_MESSAGE);
+		        System.exit(0); // Cerrar el programa
+		    } catch (IOException e) {
+		        JOptionPane.showMessageDialog(null,
+		                "Error crítico al leer el archivo Estadisticas.txt:\n" + e.getMessage(),
+		                "Error en archivo",
+		                JOptionPane.ERROR_MESSAGE);
+		        System.exit(0); // Cerrar el programa
+		    }
 	}
 	
 	public void guardarEstadistica(String fichero, Estadisticas nuevaEstadistica) {
