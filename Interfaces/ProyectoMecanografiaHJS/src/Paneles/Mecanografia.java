@@ -28,74 +28,69 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class Mecanografia extends JFrame {
-	// Arrays
+	// Arrays para almacenar los datos de los usuarios, textos y estadísticas.
 	ArrayList<Usuario> usuarios = new ArrayList<>();
 	private ArrayList<String> textos;
 	private ArrayList<Estadisticas> estadisticas;
 
-	// Fondo
-	private Image image;
+	// Componentes para manejar la interfaz gráfica
+	private Image image;  // Imagen de fondo para la pantalla de carga
+	private Dimension pantallaCompleta;  // Dimensiones de la pantalla completa
 
-	// Dimension de pantalla
-	private Dimension pantallaCompleta;
+	// Paneles y clases
+	private Login login;  // Panel de login
+	private Carga carga;  // Panel de carga
+	private LecturaEscritura lecturaEscritura;  // Clase que lee archivos
+	private Dificultad dificultad;  // Panel para elegir dificultad
+	private Game game;  // El juego que se ejecutará
 
-	// Jpanels y Clases
-	private Login login;
-	private Carga carga;
-	private LecturaEscritura lecturaEscritura;
-	private Dificultad dificultad;
-	private Game game;
-
-	// Carga
+	// Variables para controlar el temporizador de carga y el contador
 	Timer crono;
 	private int contador;
 
-	// Login
+	// Variables para el login y la dificultad del juego
 	private Usuario usuarioLogin;
-
-	// Dificultad
 	private int dif;
 
+
 	public Mecanografia() {
-		// Inicializar valores
-		setIconImage(Toolkit.getDefaultToolkit().getImage("src/img/logo.png"));
-		image = requestImage("src/img/fondoCarga.jpg");
-		pantallaCompleta = Toolkit.getDefaultToolkit().getScreenSize();
+	    // Inicialización de la interfaz gráfica, incluyendo la imagen de fondo y tamaño de la pantalla.
+	    setIconImage(Toolkit.getDefaultToolkit().getImage("src/img/logo.png"));
+	    image = requestImage("src/img/fondoCarga.jpg");
+	    pantallaCompleta = Toolkit.getDefaultToolkit().getScreenSize();
 
-		lecturaEscritura = new LecturaEscritura();
-		login = new Login();
-		carga = new Carga(image);
-		
+	    // Inicializar los paneles
+	    lecturaEscritura = new LecturaEscritura();
+	    login = new Login();
+	    carga = new Carga(image);
 
-		// Inicializar los primeros Paneles
-		login.setVisible(false);
-		carga.setVisible(true);
+	    // Configurar el primer panel a mostrar (pantalla de carga)
+	    login.setVisible(false);
+	    carga.setVisible(true);
 
-		setSize(750, 500);
-		setResizable(false);
-		setUndecorated(true);
-		setLocationRelativeTo(null);
+	    // Configuración de la ventana
+	    setSize(750, 500);
+	    setResizable(false);
+	    setUndecorated(true);
+	    setLocationRelativeTo(null);
 
-		Crono();
-		add(carga);
-
-		setVisible(true);
-		preguntarCerrarApp();
-
+	    // Iniciar temporizador para carga de archivos
+	    Crono();
+	    add(carga);
+	    setVisible(true);
+	    preguntarCerrarApp();
 	}
 
-	// Método para crear un temporizador para la barra de carga del inicio de 6
-	// segundos, con un verificador de archivos
+
 	public void Crono() {
-
-		crono = new Timer(1000, e -> {
-			contador += 1;
-			carga.getBarraProgreso().setValue(contador);
-
-			VerificarArchivos(contador);
-		});
-		crono.start();
+	    crono = new Timer(1000, e -> {
+	        contador += 1;
+	        carga.getBarraProgreso().setValue(contador);
+	        VerificarArchivos(contador);
+	    });
+	    crono.start();
 	}
+
 
 	// Método para preguntar antes de cerrar la app
 	public void preguntarCerrarApp() {
@@ -128,80 +123,44 @@ public class Mecanografia extends JFrame {
 
 	// Método para verificar archivos en el Panel de carga
 	public void VerificarArchivos(int contador) {
-		/* 
-		 * Cuando lleve 4 segundos verificara si estan los archivos y si estan los leera
-		 * para llenar los ARRAYLIST con la información de los .txt.
-		 * Si alguno no se encontrara o no se guarda bien, saltaria un mensaje y cerraria la APP
-		 * 
-		 */
-		if (contador == 4) {
+	    if (contador == 4) {
+	        // Verificar si los archivos existen y cargarlos en sus respectivas listas
+	        lecturaEscritura.FicheroUsuario("src/TXT/Usuarios.txt");
+	        usuarios = lecturaEscritura.getListaUsuarios();
+	        lecturaEscritura.FicheroTexto("src/TXT/textos.txt");
+	        textos = lecturaEscritura.getListaTexto();
+	        lecturaEscritura.FicheroEstadistica("src/TXT/Estadisticas.txt");
+	        estadisticas = lecturaEscritura.getListaEstadisticas();
 
+	        // Mostrar mensaje de error si algún archivo no se carga correctamente
+	        if (usuarios == null || usuarios.isEmpty()) {
+	            JOptionPane.showMessageDialog(null, "El archivo de usuarios no fue cargado correctamente.", "Error", JOptionPane.WARNING_MESSAGE);
+	        }
+	        if (textos == null || textos.isEmpty()) {
+	            JOptionPane.showMessageDialog(null, "El archivo de textos no fue cargado correctamente.", "Error", JOptionPane.WARNING_MESSAGE);
+	        }
+	        if (estadisticas == null || estadisticas.isEmpty()) {
+	            JOptionPane.showMessageDialog(null, "El archivo de estadísticas está vacío.", "Error", JOptionPane.WARNING_MESSAGE);
+	        }
+	    }
 
-			// Verificar .txt de usuarios
-			lecturaEscritura.FicheroUsuario("src/TXT/Usuarios.txt");
-			usuarios = lecturaEscritura.getListaUsuarios();
-
-			// Verificar ,txt de textos
-			lecturaEscritura.FicheroTexto("src/TXT/textos.txt");
-			textos = lecturaEscritura.getListaTexto();
-
-			// Verificar .txt de estadisticas
-			lecturaEscritura.FicheroEstadistica("src/TXT/Estadisticas.txt");
-			estadisticas = lecturaEscritura.getListaEstadisticas();
-
-			// Verificar archivos en general
-			if (usuarios == null || usuarios.isEmpty()) {
-	            JOptionPane.showMessageDialog(null,
-	            		"El archivo de usuarios no fue cargado correctamente.",
-	                    "Error", JOptionPane.WARNING_MESSAGE);
-			}
-			if (textos == null || textos.isEmpty()) {
-	            JOptionPane.showMessageDialog(null,
-	            		"El archivo de textos no fue cargado correctamente.",
-	                    "Error", JOptionPane.WARNING_MESSAGE);			}
-			if (estadisticas == null || estadisticas.isEmpty()) {
-	            JOptionPane.showMessageDialog(null,
-	            		"El archivo de estadísticas está vacío.",
-	                    "Error", JOptionPane.WARNING_MESSAGE);			}
-			/*
-			  Una comprobación rápida para ver si los metodos se guardan bien en los ARRAY's
-			 
-			  Comprobación de correcta lectura
-			  
-			  for (Usuario u : usuarios) { System.out.println(u); }
-			  
-			  for (String t : textos) { System.out.println(t); }
-			  
-			  for (Estadisticas e : estadisticas) { System.out.println(e); }
-			 */
-
-		}
-		// Si todo esta bien, acabara el contador y saltara al Panel del Login
-		if (contador == 6) {
-			crono.stop();
-			dispose();
-
-			carga.setVisible(false);
-			setTitle("LOG-IN");
-			login.setVisible(true);
-			setUndecorated(false);
-
-			btnLogin();
-
-			setVisible(true);
-			setSize(400, 500);
-			setLocationRelativeTo(null);
-
-			add(login);
-		}
+	    // Después de verificar, si todo está bien, pasar al login
+	    if (contador == 6) {
+	        crono.stop();
+	        dispose();  // Cerrar la pantalla de carga
+	        carga.setVisible(false);
+	        setTitle("LOG-IN");
+	        login.setVisible(true);
+	        setUndecorated(false);
+	        btnLogin();  // Preparar el botón de login
+	        setVisible(true);
+	        setSize(400, 500);
+	        setLocationRelativeTo(null);
+	        add(login);
+	    }
 	}
 
-	/* 
-	 * Método para validar si el usuario y la contraseña no son:
-	 *  - mayores de 6 caracteres
-	 *  - Tiene minusculas
-	 *  - Tiene Mayusculas
-	 */
+
 	public String validarCredenciales(String pass) {
 	    if (pass.length() < 6) {
 	        return "La contraseña debe tener al menos 6 caracteres.";
@@ -211,6 +170,7 @@ public class Mecanografia extends JFrame {
 	    boolean tieneMinuscula = false;
 	    boolean tieneNumero = false;
 
+	    // Validación de la contraseña (mayúsculas, minúsculas y números)
 	    for (char c : pass.toCharArray()) {
 	        if (Character.isUpperCase(c)) {
 	            tieneMayuscula = true;
@@ -223,6 +183,7 @@ public class Mecanografia extends JFrame {
 	        }
 	    }
 
+	    // Comprobaciones adicionales
 	    if (!tieneMayuscula) {
 	        return "La contraseña debe contener al menos una letra mayúscula.";
 	    }
@@ -235,42 +196,45 @@ public class Mecanografia extends JFrame {
 
 	    return "VALIDO";
 	}
+
 	
+	public void mostrarPanelLogin() {
+	    getContentPane().removeAll(); // Limpia el contenido actual
+	    login.setVisible(true);       // Asegúrate de que el login esté visible
+	    add(login);                   // Agrega el panel de login nuevamente
+	    revalidate();                 // Actualiza el contenedor
+	    repaint();                    // Vuelve a dibujar
+	}
 
 	public void btnLogin() {
 	    login.getBotonLog().addActionListener(e -> {
 	        String pass = String.valueOf(login.getPasswordField().getPassword());
 	        String name = login.getTextUser().getText();
 
-	        // Validación del administrador
+	        // Validación de credenciales del administrador
 	        if (name.equals("a") && pass.equals("a")) {
 	            AdminPanel adminPanel = new AdminPanel();
 	            mostrarPanel(adminPanel);
-	            return; // Salir después de redirigir al administrador
+	            return;
 	        }
 
-	        // Validación de credenciales estándar
+	        // Validación de credenciales del usuario
 	        String validacion = validarCredenciales(pass);
 	        if (!validacion.equals("VALIDO")) {
-	            JOptionPane.showMessageDialog(null,
-	                    "Error: " + validacion,
-	                    "LOG-IN", JOptionPane.WARNING_MESSAGE);
-	            return; // Salir si la contraseña no es válida
+	            JOptionPane.showMessageDialog(null, "Error: " + validacion, "LOG-IN", JOptionPane.WARNING_MESSAGE);
+	            return;
 	        }
 
-	        // Verificar usuarios en la lista
+	        // Verificar que el usuario exista en la lista de usuarios
 	        boolean usuarioEncontrado = false;
 	        for (Usuario usuario : usuarios) {
 	            if (name.equals(usuario.getName()) && pass.equals(usuario.getPass())) {
 	                usuarioLogin = usuario;
 	                usuarioEncontrado = true;
-
-	                // Redirigir a las dificultades
 	                login.setVisible(false);
 	                setResizable(false);
 	                setLocationRelativeTo(null);
 	                setTitle("MECANOGRAFIA");
-
 	                dificultad = new Dificultad();
 	                add(dificultad);
 	                btnDificultades();
@@ -278,14 +242,13 @@ public class Mecanografia extends JFrame {
 	            }
 	        }
 
-	        // Si no se encontró el usuario
+	        // Si el usuario no fue encontrado
 	        if (!usuarioEncontrado) {
-	            JOptionPane.showMessageDialog(null,
-	                    "Usuario o contraseña incorrectos.",
-	                    "LOG-IN", JOptionPane.WARNING_MESSAGE);
+	            JOptionPane.showMessageDialog(null, "Usuario o contraseña incorrectos.", "LOG-IN", JOptionPane.WARNING_MESSAGE);
 	        }
 	    });
 	}
+
 
 	
 	public void mostrarPanel(Component panel) {
@@ -297,34 +260,51 @@ public class Mecanografia extends JFrame {
 
 	
 	public void btnDificultades() {
+	    dificultad.getBtnDificultades().addActionListener(e -> {
+	        // Verificar si se seleccionó alguna dificultad
+	        if (!dificultad.getBtnFacil().isSelected() && !dificultad.getBtnDificil().isSelected()) {
+	            JOptionPane.showMessageDialog(
+	                null,
+	                "Por favor, seleccione un nivel de dificultad antes de continuar.",
+	                "Error de selección",
+	                JOptionPane.WARNING_MESSAGE
+	            );
+	            return; // Salir si no se seleccionó ninguna opción
+	        }
 
-		dificultad.getBtnDificultades().addActionListener(e -> {
-			dispose();
-			setSize(pantallaCompleta);
-			setLocationRelativeTo(null);
-			setVisible(true);
-			dificultad.setVisible(false);
+	        dispose();
+	        setSize(pantallaCompleta);
+	        setLocationRelativeTo(null);
+	        setVisible(true);
+	        dificultad.setVisible(false);
 
-			// FACIL
-			if (dificultad.getBtnFacil().isSelected()) {
-				nivel(dif = 0);
-				JOptionPane.showMessageDialog(null, "Antes de empezar debe saber: \n"
-						+ " 1.- El modo cuenta con 200 caracteres.\n"
-						+ " 2.- Tiene un maximo de 4 minutos, este empezara a contar al pulsar la primera tecla. \n"
-						+ " 3.- Si fallas 5 veces el juego acabara. \n"
-						+ " 4.- Si superas el límite de tiempo o llegas al total de errores, te mostrará una ventana emergente y el juego finalizará. \n",
-						"Instrucciones del juego", 1);
-				// DICIL
-			} else if (dificultad.getBtnDificil().isSelected()) {
-				nivel(dif = 1);
-				JOptionPane.showMessageDialog(null, "Bienvenido, aqui tienes las instrucciones: \n"
-						+ " 1.- El modo cuenta con 1000 caracteres. \n"
-						+ " 2.- Tiene un maximo de 3 minutos, este empezara a contar al pulsar la primera tecla. \n"
-						+ " 3.- Si fallas 3 veces el juego acabara. \n"
-						+ " 4.- Si superas el límite de tiempo o llegas al total de errores, te mostrará una ventana emergente y el juego finalizará. \n",
-						"Instrucciones del juego", 1);
-			}
-		});
+	        // Configurar las instrucciones según la dificultad seleccionada
+	        if (dificultad.getBtnFacil().isSelected()) {
+	            nivel(dif = 0);
+	            JOptionPane.showMessageDialog(
+	                null,
+	                "Antes de empezar debe saber: \n"
+	                + " 1.- El modo cuenta con 200 caracteres.\n"
+	                + " 2.- Tiene un máximo de 4 minutos, este empezará a contar al pulsar la primera tecla. \n"
+	                + " 3.- Si fallas 5 veces el juego acabará. \n"
+	                + " 4.- Si superas el límite de tiempo o llegas al total de errores, te mostrará una ventana emergente y el juego finalizará. \n",
+	                "Instrucciones del juego",
+	                JOptionPane.INFORMATION_MESSAGE
+	            );
+	        } else if (dificultad.getBtnDificil().isSelected()) {
+	            nivel(dif = 1);
+	            JOptionPane.showMessageDialog(
+	                null,
+	                "Bienvenido, aquí tienes las instrucciones: \n"
+	                + " 1.- El modo cuenta con 1000 caracteres. \n"
+	                + " 2.- Tiene un máximo de 3 minutos, este empezará a contar al pulsar la primera tecla. \n"
+	                + " 3.- Si fallas 3 veces el juego acabará. \n"
+	                + " 4.- Si superas el límite de tiempo o llegas al total de errores, te mostrará una ventana emergente y el juego finalizará. \n",
+	                "Instrucciones del juego",
+	                JOptionPane.INFORMATION_MESSAGE
+	            );
+	        }
+	    });
 	}
 
 	public void nivel(int dif) {

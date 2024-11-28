@@ -35,31 +35,41 @@ public class Mail {
 		sendEmail(session, toEmail, asunto, body);
 		}
 
-	
 	public static void sendEmail(Session session, String toEmail, String subject, String body) {
-		try {
-			MimeMessage msg = new MimeMessage(session);
-			// Configurar Cabeceras
-			msg.addHeader("Content-type", "text/HTML; charset=UTF-8");
-			msg.addHeader("format", "flowed");
-			msg.addHeader("Cotent-TRansfer-Encoding", "8bit");
-			msg.setFrom(new InternetAddress("hugojimenezsoler05@gmail.com", "Hugoo")); // Datos de ejemplo
-			msg.setReplyTo(InternetAddress.parse("hugojimenezsoler05@gmail.com", false));
-			msg.setSubject(subject, "UTF-8");
-			msg.setText(body, "UTF-8");
-			msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(toEmail, false));
-	        JOptionPane.showMessageDialog(null,
-	                "El correo se esta enviando...",
-	                "Procesando envio...",
-	                JOptionPane.INFORMATION_MESSAGE);
-			Transport.send(msg);
+	    try {
+	        MimeMessage msg = new MimeMessage(session);
+	        // Configurar Cabeceras
+	        msg.addHeader("Content-type", "text/HTML; charset=UTF-8");
+	        msg.addHeader("format", "flowed");
+	        msg.addHeader("Content-Transfer-Encoding", "8bit");
+	        msg.setFrom(new InternetAddress("hugojimenezsoler05@gmail.com", "Hugoo")); // Datos de ejemplo
+	        msg.setReplyTo(InternetAddress.parse("hugojimenezsoler05@gmail.com", false));
+	        msg.setSubject(subject, "UTF-8");
+	        msg.setText(body, "UTF-8");
+	        msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(toEmail, false));
+
+	        Transport.send(msg);
+
+	        // Mostrar mensaje de éxito
 	        JOptionPane.showMessageDialog(null,
 	                "El correo se ha enviado correctamente a: " + toEmail,
 	                "Correo enviado!",
 	                JOptionPane.INFORMATION_MESSAGE);
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+
+	    } catch (javax.mail.SendFailedException e) {
+	        // Manejar el error específico de correo no encontrado o inválido
+	        JOptionPane.showMessageDialog(null,
+	                "Error: El correo proporcionado no es válido o no existe:\n" + toEmail,
+	                "Error al enviar el correo",
+	                JOptionPane.ERROR_MESSAGE);
+	    } catch (Exception e) {
+	        // Manejar otros errores
+	        JOptionPane.showMessageDialog(null,
+	                "Ocurrió un error inesperado al enviar el correo:\n" + e.getMessage(),
+	                "Error al enviar el correo",
+	                JOptionPane.ERROR_MESSAGE);
+	        e.printStackTrace();
+	    }
 	}
+
 }
