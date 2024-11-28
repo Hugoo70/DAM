@@ -43,8 +43,8 @@ public class Teclado extends JPanel {
                 }
             });
 
-            teclas.put(etiqueta, key); // Guardar la tecla en el Map
-            add(key); // Agregar al panel
+            teclas.put(etiqueta, key);
+            add(key); 
         }
     }
 

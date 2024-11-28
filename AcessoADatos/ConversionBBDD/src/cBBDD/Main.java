@@ -12,7 +12,7 @@ public class Main {
 	static Scanner teclado = new Scanner(System.in);
 	public static void main(String[] args) {
 		// Definir las credenciales y la URL de conexión
-		String url = "jdbc:mysql://localhost:3306/nba"; // URL de conexión (localhost:3306 es el puerto predeterminado
+		String url = "jdbc:mysql://localhost:3306/nba";
 														// de MySQL)
 		String usuario = "root"; // Usuario de la base de datos
 		String clave = "cfgs"; // Contraseña de la base de datos
